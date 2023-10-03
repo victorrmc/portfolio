@@ -1,3 +1,14 @@
 body{
-    @apply bg-gray-900
+    @apply bg-gray-900 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+html{
+    @apply scroll-smooth
+}
+.text-balance{
+    text-wrap: balance;
 }
