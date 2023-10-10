@@ -1,4 +1,5 @@
-export function CardExperiencia({ cargo, empresa, fecha, srcTencologias, parrafos }) {
+import { ListSvg } from "./ListSvg";
+export function CardExperiencia({ cargo, empresa, fecha, srcSvg, parrafos }) {
   return (
     <div className="lg:flex mx-4 h-auto w-auto bg-slate-800  space-y-6 lg:space-y-0 rounded-3xl p-5">
       <div className=" grid text-center lg:flex-1 lg:text-left lg:content-center space-y-2 mr-3 ">
@@ -6,18 +7,7 @@ export function CardExperiencia({ cargo, empresa, fecha, srcTencologias, parrafo
         <p className="text-lg text-blue-300 text-balance">{empresa}</p>
         <p className="font-mono text-white">{fecha}</p>
         <p className=" pt-3 font-bold text-white">Tecnologías utilizadas:</p>
-        <ul className="flex flex-1 items-center justify-center space-x-2 ">
-          {srcTencologias.map((tecnologias, index) => (
-            <li key={index}>
-              <img
-                className="h-10"
-                src={tecnologias.url}
-                alt={'Logo de '+tecnologias.title}
-                title={tecnologias.title}
-              />
-            </li>
-          ))}
-        </ul>
+        <ListSvg srcSvg={ srcSvg } />
       </div>
       <div className=" space-y-3 grid lg:content-center lg:max-w-xl ">
         {parrafos.map((element, index) => (

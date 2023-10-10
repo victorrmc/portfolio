@@ -2,7 +2,7 @@ export function Header() {
   return (
     <header className="fixed top-0 z-50">
       <nav>
-        <lu className="fixed flex w-full list-none p-5 space-x-5  backdrop-opacity-10 backdrop-invert bg-black/30 text-white justify-end">
+        <ul className="fixed flex w-full list-none p-5 space-x-5  backdrop-opacity-10 backdrop-invert bg-black/30 text-white justify-end">
           <a href="#">
             <li className="p-2 text-white rounded  hover:bg-fuchsia-100  hover:text-gray-900">
               Inicio
@@ -26,7 +26,7 @@ export function Header() {
               Contácteme
             </li>
           </a>
-        </lu>
+        </ul>
       </nav>
     </header>
   );
