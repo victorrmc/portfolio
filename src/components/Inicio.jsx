@@ -30,7 +30,7 @@ export function Inicio() {
               />
             </a>
             <a
-              className=" rounded-full pulse animated transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 duration-300  "
+              className=" rounded-full  hover:bg-white transition-all hover:drop-shadow-[0px_0px_8px_rgba(255,255,255,0.35)] "
               href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
             >
               <img
@@ -41,7 +41,7 @@ export function Inicio() {
               />
             </a>
             <a
-              className="rounded-lg bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
+              className="rounded-lg animated heartBeat bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
               href="/public/CV/CV - Víctor Marrero Carrillo.pdf"
             >
              CV

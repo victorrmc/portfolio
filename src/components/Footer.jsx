@@ -16,7 +16,7 @@ export function Footer() {
             />
           </a>
           <a
-            className=" rounded-full transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 duration-300 m-1 "
+            className=" rounded-full   hover:bg-white transition-all hover:drop-shadow-[0px_0px_8px_rgba(255,255,255,0.35)]  m-1 "
             href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
           >
             <img
@@ -27,7 +27,7 @@ export function Footer() {
             />
           </a>
           <a
-            className=" rounded-lg p-1  hover:bg-white  "
+            className=" rounded-lg p-1 heartBeat   "
             href="mailto:vitortenemc@gmail.com"
           >
             <img

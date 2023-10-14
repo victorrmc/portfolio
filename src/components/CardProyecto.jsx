@@ -19,16 +19,16 @@ export function CardProyecto({
 
         <div className="absolute hidden space-x-3 group-hover:flex  ">
           <a
-            className="jello-horizontal  flex align-middle flex-col justify-center "
+            className="jello-horizontal "
             href={enlaceGithub}
           >
             Código
             <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
           </a>
-          <a href={enlaceWeb}>
+          <a href={enlaceWeb} className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 ">
             Página
             <img
-              className="w-10 ml-0.5"
+              className="w-10 ml-0.5  "
               src="Enlace.svg"
               alt="Logo de enlace"
             />
