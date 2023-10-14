@@ -17,20 +17,20 @@ export function Inicio() {
             Desarrollador con experiencia en aplicaciones web y multiplataforma{" "}
             <span className="text-3xl"> 👨‍💻 </span>
           </p>
-          <div className="flex space-x-3 mt-3">
+          <div className="flex space-x-3 pt-3">
             <a
-              className="ml-1 rounded-full p-1  hover:bg-black  "
+              className="ml-1 rounded-full jello-horizontal  "
               href="https://github.com/victorrmc"
             >
               <img
-                className="w-10"
+                className="w-10 fill-black"
                 src="Github.svg"
                 alt="GitHub"
                 title="GitHub"
               />
             </a>
             <a
-              className=" rounded-lg p-1  hover:bg-white  "
+              className=" rounded-full pulse animated transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 duration-300  "
               href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
             >
               <img
@@ -39,6 +39,12 @@ export function Inicio() {
                 title="LinkedIn"
                 alt="Logo LinkedIn"
               />
+            </a>
+            <a
+              className="rounded-lg bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
+              href="/public/CV/CV - Víctor Marrero Carrillo.pdf"
+            >
+             CV
             </a>
           </div>
         </div>
