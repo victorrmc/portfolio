@@ -1,10 +1,10 @@
 export function ListSvg({ srcSvg, altura= "h-10" }) {
   return (
-    <ul className="grid grid-cols-autofit gap-1">
+    <ul className="flex flex-wrap items-center justify-center gap-4">
       {srcSvg.map((tecnologias, index) => (
-        <li key={index} className="w-full flex justify-center align-middle ">
+        <li key={index}>
           <img
-            className={altura +  " "}
+            className={altura}
             src={tecnologias.url}
             alt={"Logo de " + tecnologias.title || tecnologias.url.toString(). slice(0, -4)}
             title={tecnologias.title || tecnologias.url.toString(). slice(0, -4)}

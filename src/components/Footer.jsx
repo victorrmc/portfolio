@@ -1,15 +1,15 @@
 export function Footer() {
     return (
-        <footer id="Contactame" className="space-y-3 w-full text-center bg-slate-950">
+        <footer id="Contactame" className="space-y-3 w-full text-center bg-slate-950 py-4">
           
-        <div className="flex flex-1 items-center justify-center space-x-2">
+        <div className="flex flex-1 items-center justify-center align-middle space-x-2">
           <h1 className="text-white">Víctor Marrero Carrillo - Portfolio</h1>
           <a
             className="ml-1 jello-horizontal rounded-full p-1  hover:bg-black  "
             href="https://github.com/victorrmc"
           >
             <img
-              className="w-20"
+              className="w-14"
               src="Github.svg"
               alt="GitHub"
               title="GitHub"
@@ -20,7 +20,7 @@ export function Footer() {
             href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
           >
             <img
-              className="w-20"
+              className="w-14"
               src="LinkedIn.svg"
               title="LinkedIn"
               alt="Logo LinkedIn"
@@ -31,7 +31,7 @@ export function Footer() {
             href="mailto:vitortenemc@gmail.com"
           >
             <img
-              className="w-20"
+              className="w-14"
               src="Gmail.svg"
               title="Gmail"
               alt="Logo Gmail"

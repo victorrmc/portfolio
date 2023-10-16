@@ -7,7 +7,6 @@ import { Inicio } from "./components/Inicio";
 import { ListSvg } from "./components/ListSvg";
 import { SobreMi } from "./components/SobreMi";
 import {
-  logoContactame,
   logoTecAshotel,
   logoTecCIAC,
   logoTecOferAlert,
@@ -15,6 +14,8 @@ import {
   parrafosCIAC,
   parrafosOferAlert,
   logoDAW,
+  logoDAM,
+  logoHabilidades,
 } from "./constans";
 
 function App() {
@@ -51,8 +52,7 @@ function App() {
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web"
               empresa_instituto="CIFP César Manrique Formación Profesional"
               fecha="sept. 2022 - jun. 2023"
-              srcSvg={logoDAW}
-              parrafos={parrafosCIAC}
+              srcSvg={logoDAW}           
               colorFondo="bg-slate-800"
               altura= "w-10"
             />
@@ -60,10 +60,13 @@ function App() {
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones Desarrollo de aplicaciones multiplataforma"
               empresa_instituto="CIFP César Manrique Formación Profesional"
               fecha="sept. 2020 - jun. 2022"
-              srcSvg={logoTecCIAC}
-              parrafos={parrafosCIAC}
+              srcSvg={logoDAM}
               colorFondo="bg-slate-800"
             />
+          </article>
+          <article className="py-3 space-y-2 px-3">
+            <h2 className="text-3xl  text-white text-center">Skills</h2>
+            <ListSvg srcSvg={logoHabilidades}></ListSvg>
           </article>
         </section>
         <section

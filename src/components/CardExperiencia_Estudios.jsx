@@ -1,5 +1,5 @@
 import { ListSvg } from "./ListSvg";
-export function CardExperiencia_Estudios({ cargo_titulo, empresa_instituto, fecha, srcSvg, parrafos, colorFondo, altura }) {
+export function CardExperiencia_Estudios({ cargo_titulo, empresa_instituto, fecha, srcSvg, parrafos=[], colorFondo, altura }) {
   return (
     <div className={`lg:flex animatedCard mx-4 h-auto w-auto shadow-lg shadow-black ${colorFondo}  space-y-6 lg:space-y-0 rounded-3xl p-5`}>
       <div className=" grid text-center lg:text-left  lg:flex-1 lg:content-center space-y-2 mr-3 ">

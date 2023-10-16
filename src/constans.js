@@ -33,17 +33,7 @@ export const logoTecOferAlert = [
         url: "Flask.svg",
     },
 ];
-export const logoContactame = [
-    {
-        url: "Github.svg",
-    },
-    {
-        url: "LinkedIn.svg",
-    },
-    {
-        url: "Gmail.svg",
-    },
-];
+
 export const logoDAW = [
     {
         url: "React.svg",
@@ -61,11 +51,11 @@ export const logoDAW = [
         url: "JavaScript.svg",
     },
     {
-        url: "C--4.svg",
-        title: "C#",
+        url: "Java.svg",
     },
     {
-        url: "Java.svg",
+        url: "C--4.svg",
+        title: "C#",
     },
     {
         url: "SQL.svg",
@@ -77,7 +67,113 @@ export const logoDAW = [
         url: "CSS3.svg",
     },
 ];
+export const logoDAM = [
+    {
+        url: "Java.svg",
+    },
+    {
+        url: "C--4.svg",
+        title: "C#",
+    },
+    {
+        url: "PHP.svg",
+    },
+    {
+        url: "SQL.svg",
+    },
+    {
+        url: "HTML5.svg",
+    },
+    {
+        url: "CSS3.svg",
+    },
+    {
+        url: "Unity.svg",
+    },
+    {
+        url: "AndroidStudio.svg",
+        title: "Android Studio",
+    },
+];
 
+export const logoHabilidades = [
+    {
+        url: "React.svg",
+    },
+    {
+        url: ".NET.svg",
+    },
+    {
+        url: "Spring.svg",
+    },
+    {
+        url: "Tailwind.svg",
+    },
+    {
+        url: "Bootstrap.svg",
+    },
+    {
+        url: "JavaScript.svg",
+    },
+    {
+        url: "Java.svg",
+    },
+    {
+        url: "C--4.svg",
+        title: "C#",
+    },
+    {
+        url: "Python.svg",
+    },
+    {
+        url: "PHP.svg",
+    },
+    {
+        url: "SQL.svg",
+    },
+    {
+        url: "HTML5.svg",
+    },
+    {
+        url: "CSS3.svg",
+    },
+    {
+        url: "Git.svg",
+    },
+    {
+        url: "Github.svg",
+    },
+    {
+        url: "Postman.svg",
+    },
+    {
+        url: "Docker.svg",
+    },
+    {
+        url: "VisualStudioCode.svg",
+        title: "Visual Studio Code",
+    },
+    {
+        url: "VisualStudio2022.svg",
+        title: "Visual Studio 2022",
+    },
+    {
+        url: "ApacheNetBeans.svg",
+        title: "Apache NetBeans",
+    },
+    {
+        url: "AndroidStudio.svg",
+        title: "Android Studio",
+    },
+    {
+        url: "Unity.svg",
+        title: "Apache NetBeans",
+    },
+    {
+        url: "Dolibarr.svg",
+        title: "Dolibarr",
+    },
+];
 export const parrafosAshotel = [
     "En mi rol en Ashotel, trabajé como Full Stack Developer, cubriendo diferentes áreas:",
     "Desarrollé y actualicé páginas web en WordPress con backend en PHP para mejorar la experiencia en línea.",
