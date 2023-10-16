@@ -26,10 +26,10 @@ export function CardProyecto({
             Código
             <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
           </a>
-          <a href={enlaceWeb} className="transition  ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 ">
+          <a href={enlaceWeb} >
             Página
             <img
-              className="w-10 ml-0.5  "
+              className="w-10 ml-0.5  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 "
               src="Enlace.svg"
               alt="Logo de enlace"
             />

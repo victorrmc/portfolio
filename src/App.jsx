@@ -64,8 +64,8 @@ function App() {
               colorFondo="bg-slate-800"
             />
           </article>
-          <article className="py-3 space-y-2 px-3">
-            <h2 className="text-3xl  text-white text-center">Skills</h2>
+          <article className="py-3 space-y-3 px-3">
+            <h2 className="text-3xl  text-white text-center">Habilidades</h2>
             <ListSvg srcSvg={logoHabilidades}></ListSvg>
           </article>
         </section>
@@ -73,7 +73,7 @@ function App() {
           id="Proyectos"
           className="flex flex-col items-center px-3 space-y-2 py-5 max-w-screen-lg text-white "
         >
-          <h2 className="text-3xl mb-5">Proyectos</h2>
+          <h2 className="text-5xl mb-5">Proyectos</h2>
           <CardProyecto
             imagen={"./img/OfertAlert.png"}
             enlaceGithub={"https://github.com/victorrmc/OfertAlert"}

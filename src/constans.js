@@ -167,11 +167,9 @@ export const logoHabilidades = [
     },
     {
         url: "Unity.svg",
-        title: "Apache NetBeans",
     },
     {
         url: "Dolibarr.svg",
-        title: "Dolibarr",
     },
 ];
 export const parrafosAshotel = [
