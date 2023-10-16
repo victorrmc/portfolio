@@ -1,6 +1,6 @@
 export function Footer() {
     return (
-        <footer id="Contactame" className="space-y-3 w-screen text-center bg-slate-950">
+        <footer id="Contactame" className="space-y-3 w-full text-center bg-slate-950">
           
         <div className="flex flex-1 items-center justify-center space-x-2">
           <h1 className="text-white">Víctor Marrero Carrillo - Portfolio</h1>
@@ -16,7 +16,7 @@ export function Footer() {
             />
           </a>
           <a
-            className=" rounded-full   hover:bg-white transition-all hover:drop-shadow-[0px_0px_8px_rgba(255,255,255,0.35)]  m-1 "
+            className=" rounded-full  hover:bg-white transition-all hover:drop-shadow-[0px_0px_8px_rgba(255,255,255,0.35)]  m-1 "
             href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
           >
             <img

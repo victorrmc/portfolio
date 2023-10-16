@@ -7,6 +7,7 @@ export function CardProyecto({
   colortitulo,
   parrafos,
   srcSvg,
+  altura,
 }) {
   return (
     <article className="relative animatedCard mx-4 bg-slate-700 shadow-lg shadow-black rounded-3xl">
@@ -25,7 +26,7 @@ export function CardProyecto({
             Código
             <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
           </a>
-          <a href={enlaceWeb} className="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 ">
+          <a href={enlaceWeb} className="transition  ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 ">
             Página
             <img
               className="w-10 ml-0.5  "
@@ -44,7 +45,7 @@ export function CardProyecto({
         ))}
         <div className="space-y-3 text-center">
           <h4 className="font-bold ">Tecnologias utilizadas:</h4>
-          <ListSvg srcSvg={srcSvg} />
+          <ListSvg srcSvg={srcSvg} altura={altura}/>
         </div>
       </div>
     </article>

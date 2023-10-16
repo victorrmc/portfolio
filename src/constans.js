@@ -1,58 +1,80 @@
 export const logoTecAshotel = [
     {
-        url: "Typescript_logo_2020.svg",
-        title: "Typescript",
+        url: "Typescript.svg",
     },
     {
-        url: "PHP-logo.svg",
-        title: "PHP",
+        url: "PHP.svg",
     },
     {
-        url: "HTML5_Badge.svg",
-        title: "HTML5",
+        url: "HTML5.svg",
     },
     {
-        url: "CSS3_logo.svg",
-        title: "CSS3",
+        url: "CSS3.svg",
     },
     {
-        url: "Wordpress-Logo.svg",
-        title: "Wordpress",
+        url: "Wordpress.svg",
     },
 ];
 export const logoTecCIAC = [
     {
-        url: "c--4.svg",
+        url: "C--4.svg",
         title: "C#",
     },
     {
-        url: "Xamarin-logo.svg",
-        title: "Xamarin",
+        url: "Xamarin.svg",
     },
 ];
 
 export const logoTecOferAlert = [
     {
         url: "Python.svg",
-        title: "Python",
     },
     {
         url: "Flask.svg",
-        title: "Flask",
     },
 ];
 export const logoContactame = [
     {
         url: "Github.svg",
-        title: "Github",
     },
     {
         url: "LinkedIn.svg",
-        title: "LinkedIn",
     },
     {
         url: "Gmail.svg",
-        title: "Gmail",
+    },
+];
+export const logoDAW = [
+    {
+        url: "React.svg",
+    },
+    {
+        url: ".NET.svg",
+    },
+    {
+        url: "Spring.svg",
+    },
+    {
+        url: "Bootstrap.svg",
+    },
+    {
+        url: "JavaScript.svg",
+    },
+    {
+        url: "C--4.svg",
+        title: "C#",
+    },
+    {
+        url: "Java.svg",
+    },
+    {
+        url: "SQL.svg",
+    },
+    {
+        url: "HTML5.svg",
+    },
+    {
+        url: "CSS3.svg",
     },
 ];
 
