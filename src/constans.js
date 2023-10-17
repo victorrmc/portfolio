@@ -17,7 +17,7 @@ export const logoTecAshotel = [
 ];
 export const logoTecCIAC = [
     {
-        url: "C--4.svg",
+        url: "CSharp.svg",
         title: "C#",
     },
     {
@@ -54,7 +54,7 @@ export const logoDAW = [
         url: "Java.svg",
     },
     {
-        url: "C--4.svg",
+        url: "CSharp.svg",
         title: "C#",
     },
     {
@@ -72,7 +72,7 @@ export const logoDAM = [
         url: "Java.svg",
     },
     {
-        url: "C--4.svg",
+        url: "CSharp.svg",
         title: "C#",
     },
     {
@@ -121,7 +121,7 @@ export const logoLenguajes = [
         url: "Java.svg",
     },
     {
-        url: "C--4.svg",
+        url: "CSharp.svg",
         title: "C#",
     },
     {

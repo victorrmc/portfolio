@@ -28,7 +28,7 @@ export function Footer() {
           </a>
           <a
             className=" rounded-lg p-1 heartBeat  hover:bg-white "
-            href="mailto:vitortenemc@gmail.com"
+            href="mailto:victortenemc@gmail.com"
           >
             <img
               className="w-14"
