@@ -95,8 +95,7 @@ export const logoDAM = [
         title: "Android Studio",
     },
 ];
-
-export const logoHabilidades = [
+export const logoFrameworks = [
     {
         url: "React.svg",
     },
@@ -112,6 +111,9 @@ export const logoHabilidades = [
     {
         url: "Bootstrap.svg",
     },
+];
+
+export const logoLenguajes = [
     {
         url: "JavaScript.svg",
     },
@@ -137,18 +139,9 @@ export const logoHabilidades = [
     {
         url: "CSS3.svg",
     },
-    {
-        url: "Git.svg",
-    },
-    {
-        url: "Github.svg",
-    },
-    {
-        url: "Postman.svg",
-    },
-    {
-        url: "Docker.svg",
-    },
+];
+
+export const logoIDEs = [
     {
         url: "VisualStudioCode.svg",
         title: "Visual Studio Code",
@@ -162,16 +155,35 @@ export const logoHabilidades = [
         title: "Apache NetBeans",
     },
     {
+        url: "IntelliJIDEA.svg",
+        title: "IntelliJ IDEA",
+    },
+    {
         url: "AndroidStudio.svg",
         title: "Android Studio",
     },
     {
         url: "Unity.svg",
     },
+]
+export const logoHerramientas = [
+    {
+        url: "Git.svg",
+    },
+    {
+        url: "Github.svg",
+    },
+    {
+        url: "Postman.svg",
+    },
+    {
+        url: "Docker.svg",
+    },
     {
         url: "Dolibarr.svg",
     },
 ];
+
 export const parrafosAshotel = [
     "En mi rol en Ashotel, trabajé como Full Stack Developer, cubriendo diferentes áreas:",
     "Desarrollé y actualicé páginas web en WordPress con backend en PHP para mejorar la experiencia en línea.",

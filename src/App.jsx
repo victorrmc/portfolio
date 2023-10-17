@@ -15,7 +15,10 @@ import {
   parrafosOferAlert,
   logoDAW,
   logoDAM,
-  logoHabilidades,
+  logoFrameworks,
+  logoLenguajes,
+  logoIDEs,
+  logoHerramientas,
 } from "./constans";
 
 function App() {
@@ -66,7 +69,14 @@ function App() {
           </article>
           <article className="py-3 space-y-3 px-3">
             <h2 className="text-3xl  text-white text-center">Habilidades</h2>
-            <ListSvg srcSvg={logoHabilidades}></ListSvg>
+            <h3 className="text-2xl  text-white text-center">Frameworks</h3>
+            <ListSvg srcSvg={logoFrameworks}></ListSvg>
+            <h3 className="text-2xl  text-white text-center">Lenguajes de programación</h3>
+            <ListSvg srcSvg={logoLenguajes}></ListSvg>
+            <h3 className="text-2xl  text-white text-center">IDEs</h3>
+            <ListSvg srcSvg={logoIDEs}></ListSvg>
+            <h3 className="text-2xl  text-white text-center">Herramientas</h3>
+            <ListSvg srcSvg={logoHerramientas}></ListSvg>
           </article>
         </section>
         <section
