@@ -187,7 +187,7 @@ export const logoHerramientas = [
 export const parrafosAshotel = [
     "En mi rol en Ashotel, trabajé como Full Stack Developer, cubriendo diferentes áreas:",
     "Desarrollé y actualicé páginas web en WordPress con backend en PHP para mejorar la experiencia en línea.",
-    "Automatisé tareas utilizando TypeScript para crear automatizaciones en Excel y Microsoft Power Automate para simplificar procesos internos.",
+    "Automaticé tareas utilizando TypeScript para crear automatizaciones en Excel y Microsoft Power Automate para simplificar procesos internos.",
     "Lideré el desarrollo de un Producto Mínimo Viable (MVP) en Power Apps, lo que optimizeció tareas y aumentó la eficiencia operativa en la empresa."
 ];
 export const parrafosCIAC = [
