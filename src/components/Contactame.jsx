@@ -1,9 +1,9 @@
 export function Contactame() {
   return (
     <section
-      id="Contactame" className="space-y-3 text-center  w-full px-3 py-4">
+      id="Contactame" className=" max-w-screen-lg space-y-3 text-center  w-full px-3 py-4">
       <h1 className="text-5xl text-white text-center">Contáctame</h1>
-      <article className="shadow-lg shadow-black rounded-3xl py-8 bg-slate-950 mx-4 space-y-2">
+      <article className=" shadow-lg shadow-black rounded-3xl py-8 bg-slate-950 mx-4 space-y-2">
         <h2 className="text-white py-3">
           No dudes en contactarme si mi perfil te parece interesante{" "}
         </h2>
