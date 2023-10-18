@@ -9,7 +9,7 @@ export function Contactame() {
         <h2 className="text-white py-3">
           No dudes en contactarme si mi perfil te parece interesante{" "}
         </h2>
-        <div className="flex flex-1 items-center justify-center align-middle py-3 space-x-6">
+        <div className="flex flex-1 items-center justify-center align-middle p-3 space-x-1 lg:space-x-6">
           <a
             className="ml-1  rounded-full p-1    "
             href="https://github.com/victorrmc"
@@ -40,21 +40,21 @@ export function Contactame() {
             <p className="text-white">Gmail</p>
             <div className="heartBeat">
               <img
-                className="w-14 mt-1   hover:bg-white rounded-lg "
+                className="h-14 mt-1   hover:bg-white rounded-lg "
                 src="Gmail.svg"
                 title="Gmail"
                 alt="Logo Gmail"
               />
             </div>
           </a>
-
+        
           <a
-            className="grid place-content-center text-center"
+            className="flex flex-col items-center justify-center"
             href="/CV/CV-VictorMarreroCarrillo.pdf"
             title="Curriculum Vitae"
           >
             <p className="text-white text-center">Currículum Vitae</p>
-            <p className="flex align-middle flex-col justify-center rounded-lg animated heartBeat bg-yellow-300 w-14 h-14 mt-1 mx-7 hover:bg-black hover:text-yellow-300 text-black text-2xl">
+            <p className="w-14 h-14  rounded-lg animated heartBeat bg-yellow-300 flex align-middle justify-center flex-col   mt-1  hover:bg-black hover:text-yellow-300 text-black text-2xl">
               CV
             </p>
           </a>

@@ -57,7 +57,6 @@ function App() {
               fecha="sept. 2022 - jun. 2023"
               srcSvg={logoDAW}
               colorFondo="bg-slate-800"
-              altura="w-10"
             />
             <CardExperiencia_Estudios
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones Desarrollo de aplicaciones multiplataforma"
@@ -66,6 +65,8 @@ function App() {
               srcSvg={logoDAM}
               colorFondo="bg-slate-800"
             />
+            
+            
           </article>
           <article className="py-3 space-y-3 px-3">
             <h2 className="text-3xl  text-white text-center">Habilidades</h2>
