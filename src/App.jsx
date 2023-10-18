@@ -96,6 +96,7 @@ function App() {
             colortitulo={"text-[#D68910]"}
           />
         </section>
+       
         <Contactame />
         <footer className="bg-black w-full p-3">
           <h1 className="text-white text-center">Víctor Marrero Carrillo - Portfolio</h1>

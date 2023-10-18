@@ -5,6 +5,7 @@ body::-webkit-scrollbar {
   width: 4px;
   background-color: black;
 }
+
 body::-webkit-scrollbar-thumb {
    background-color: rgb(253 224 71); ;
    border-radius: 15px;
