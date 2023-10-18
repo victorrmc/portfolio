@@ -1,7 +1,7 @@
 import "./App.css";
 import { CardExperiencia_Estudios } from "./components/CardExperiencia_Estudios";
 import { CardProyecto } from "./components/CardProyecto";
-import { Footer } from "./components/Footer";
+import { Contactame } from "./components/Contactame";
 import { Header } from "./components/Header";
 import { Inicio } from "./components/Inicio";
 import { ListSvg } from "./components/ListSvg";
@@ -24,7 +24,6 @@ import {
 function App() {
   return (
     <>
-    
       <Header />
       <main className="flex flex-col items-center  w-full">
         <Inicio />
@@ -44,7 +43,7 @@ function App() {
             />
             <CardExperiencia_Estudios
               cargo_titulo="Desarrollador Xamarin"
-              empresa_instituto="CENTRO DE INFORMATICA Y ANALISIS DE CANARIAS SL · Contrato de prácticas"
+              empresa_instituto="CENTRO DE INFORMÁTICA Y ANALISIS DE CANARIAS SL · Contrato de prácticas"
               fecha="mar. 2022 - may. 2022 · 3 meses"
               srcSvg={logoTecCIAC}
               parrafos={parrafosCIAC}
@@ -56,9 +55,9 @@ function App() {
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web"
               empresa_instituto="CIFP César Manrique Formación Profesional"
               fecha="sept. 2022 - jun. 2023"
-              srcSvg={logoDAW}           
+              srcSvg={logoDAW}
               colorFondo="bg-slate-800"
-              altura= "w-10"
+              altura="w-10"
             />
             <CardExperiencia_Estudios
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones Desarrollo de aplicaciones multiplataforma"
@@ -72,7 +71,9 @@ function App() {
             <h2 className="text-3xl  text-white text-center">Habilidades</h2>
             <h3 className="text-2xl  text-white text-center">Frameworks</h3>
             <ListSvg srcSvg={logoFrameworks}></ListSvg>
-            <h3 className="text-2xl  text-white text-center">Lenguajes de programación</h3>
+            <h3 className="text-2xl  text-white text-center">
+              Lenguajes de programación
+            </h3>
             <ListSvg srcSvg={logoLenguajes}></ListSvg>
             <h3 className="text-2xl  text-white text-center">IDEs</h3>
             <ListSvg srcSvg={logoIDEs}></ListSvg>
@@ -95,7 +96,10 @@ function App() {
             colortitulo={"text-[#D68910]"}
           />
         </section>
-        <Footer />
+        <Contactame />
+        <footer className="bg-black w-full p-3">
+          <h1 className="text-white text-center">Víctor Marrero Carrillo - Portfolio</h1>
+        </footer>
       </main>
     </>
   );

@@ -21,7 +21,7 @@ export function Header() {
           </a>
           <a href="#Sobre-mi" className="m-0">
             <li className=" py-2 lg:p-2 rounded  w-full  hover:bg-fuchsia-100  hover:text-gray-900">
-              Sobre mi
+              Sobre mí
             </li>
           </a>
           <a href="#Proyectos">

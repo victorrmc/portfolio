@@ -44,7 +44,7 @@ export function CardProyecto({
           </p>
         ))}
         <div className="space-y-3 text-center">
-          <h4 className="font-bold ">Tecnologias utilizadas:</h4>
+          <h4 className="font-bold ">Tecnologías utilizadas:</h4>
           <ListSvg srcSvg={srcSvg} altura={altura}/>
         </div>
       </div>
