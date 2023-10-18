@@ -42,7 +42,7 @@ export function Inicio() {
             </a>
             <a
               className="rounded-lg animated heartBeat bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
-              href="/public/CV/CV - Víctor Marrero Carrillo.pdf" title="Curriculum Vitae"
+              href="/public/CV/CV-VictorMarreroCarrillo.pdf" title="Curriculum Vitae"
             >
              CV
             </a>

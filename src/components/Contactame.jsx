@@ -50,7 +50,7 @@ export function Contactame() {
 
           <a
             className="grid place-content-center text-center"
-            href="/public/CV/CV - Víctor Marrero Carrillo.pdf"
+            href="/public/CV/CV-VictorMarreroCarrillo.pdf"
             title="Curriculum Vitae"
           >
             <p className="text-white text-center">Currículum Vitae</p>
