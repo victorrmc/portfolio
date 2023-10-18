@@ -6,15 +6,15 @@ export function Contactame() {
     >
       <h1 className="text-5xl mb-5 text-white text-center">Contáctame</h1>
       <article className=" shadow-lg shadow-black rounded-3xl py-8 bg-slate-950 mx-4 space-y-2">
-        <h2 className="text-white py-3">
+        <h2 className="text-white py-3 mx-1">
           No dudes en contactarme si mi perfil te parece interesante{" "}
         </h2>
-        <div className="flex flex-1 items-center justify-center align-middle p-3 space-x-1 lg:space-x-6">
+        <div className="flex  items-center justify-center align-middle p-3 space-x-reverse lg:space-x-6">
           <a
-            className="ml-1  rounded-full p-1    "
+            className="flex flex-1 flex-col items-center justify-center  rounded-full     "
             href="https://github.com/victorrmc"
           >
-            <p className="text-white">Código</p>
+            <p className="text-white te">Código</p>
             <div className="jello-horizontal ">
               <img
                 className="w-14 mt-1"
@@ -25,7 +25,7 @@ export function Contactame() {
             </div>
           </a>
           <a
-            className=" "
+            className=" flex flex-1 flex-col items-center justify-center "
             href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
           >
             <p className="text-white">LinkedIn</p>
@@ -36,7 +36,7 @@ export function Contactame() {
               alt="Logo LinkedIn"
             />
           </a>
-          <a className=" p-1 " href="mailto:victortenemc@gmail.com">
+          <a className=" flex-1 p-1 flex flex-col items-center justify-center " href="mailto:victortenemc@gmail.com">
             <p className="text-white">Gmail</p>
             <div className="heartBeat">
               <img
@@ -49,11 +49,11 @@ export function Contactame() {
           </a>
         
           <a
-            className="flex flex-col items-center justify-center"
+            className=" flex-1 flex flex-col items-center justify-center"
             href="/CV/CV-VictorMarreroCarrillo.pdf"
             title="Curriculum Vitae"
           >
-            <p className="text-white text-center">Currículum Vitae</p>
+            <p className="text-white ">Currículum Vitae</p>
             <p className="w-14 h-14  rounded-lg animated heartBeat bg-yellow-300 flex align-middle justify-center flex-col   mt-1  hover:bg-black hover:text-yellow-300 text-black text-2xl">
               CV
             </p>
