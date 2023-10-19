@@ -6,7 +6,7 @@ export function Inicio() {
     >
       <article className="flex flex-col items-center gap-2 lg:flex-row-reverse">
         <img
-          src="img/fotoPerfil2.jpg"
+          src="img/FotoPerfil.jpg"
           alt="Foto frontal Víctor Marrero Carrillo"
           className="w-52 rounded-full lg:ml-12"
         />
