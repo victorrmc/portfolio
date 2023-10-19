@@ -185,15 +185,13 @@ export const logoHerramientas = [
 ];
 
 export const parrafosAshotel = [
-    "En mi rol en Ashotel, trabajé como Full Stack Developer, cubriendo diferentes áreas:",
-    "Desarrollé y actualicé páginas web en WordPress con backend en PHP para mejorar la experiencia en línea.",
-    "Automaticé tareas utilizando TypeScript para crear automatizaciones en Excel y Microsoft Power Automate para simplificar procesos internos.",
-    "Lideré el desarrollo de un Producto Mínimo Viable (MVP) en Power Apps, lo que optimización tareas y aumentó la eficiencia operativa en la empresa."
+    "Desarrollo y actualización de páginas web en WordPress con backend en PHP mejorando la experiencia de usuario.",
+    "Automatización de tareas mejorando la productividad de mis compañeros utilizando TypeScript para crear automatizaciones en Excel y Microsoft Power Automate con el fin de simplificar procesos internos.",    
+    "Adopción del rol de líder durante el desarrollo de un Producto Mínimo Viable (MVP) en Power Apps, con el objetivo de realizar una optimización de tareas y aumento de la eficiencia operativa en la empresa.",
 ];
 export const parrafosCIAC = [
-    "Como desarrollador de Xamarin en CIAC realice las siguientes funciones:",
-    "Optimicé la velocidad y eficiencia de las listas desplegables en nuestra aplicación mediante técnicas de carga, lazy load y almacenamiento en caché.",
-    "Dirigí la creación exitosa de una nueva sección de la aplicación, mejorando la experiencia del usuario."
+    "Optimización de la velocidad y eficiencia de las listas desplegables en nuestra aplicación mediante técnicas de carga, lazy load y almacenamiento en caché.",
+    "Adopción del rol de líder en la creación exitosa de una nueva sección de la aplicación, creando nuevas funciones a esta.",
 ];
 export const parrafosOferAlert = [
     "Aplicación web de seguimiento de ofertas en tiempo real. Con OfertAlert, puedes ingresar un enlace y recibir notificaciones por correo electrónico cada vez que el artículo asociado esté en oferta.",

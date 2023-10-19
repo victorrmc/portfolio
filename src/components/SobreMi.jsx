@@ -7,7 +7,7 @@ export function SobreMi() {
       </p>
       <p className=" text-white">
         Busco desafíos tecnológicos y oportunidades para seguir creciendo en el
-        mundo del desarrollo de software. ¡Conéctate conmigo para explorar
+        mundo del desarrollo de software. ¡Contacta conmigo para explorar
         nuevas posibilidades juntos!
       </p>
     </article>

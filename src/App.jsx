@@ -35,15 +35,15 @@ function App() {
           <article className="flex flex-col my-5 space-y-3 justify-items-start ">
             <h3 className="text-3xl text-white text-center">Experiencia</h3>
             <CardExperiencia_Estudios
-              cargo_titulo="Programador Full Stack"
-              empresa_instituto="Ashotel · Contrato de prácticas"
+              cargo_titulo="Desarrollador Full Stack"
+              empresa_instituto="Ashotel"
               fecha="mar. 2023 - may. 2023 · 3 meses"
               srcSvg={logoTecAshotel}
               parrafos={parrafosAshotel}
             />
             <CardExperiencia_Estudios
-              cargo_titulo="Desarrollador Xamarin"
-              empresa_instituto="CENTRO DE INFORMÁTICA Y ANALISIS DE CANARIAS SL · Contrato de prácticas"
+              cargo_titulo="Desarrollador Mobile"
+              empresa_instituto="CENTRO DE INFORMÁTICA Y ANÁLISIS DE CANARIAS SL"
               fecha="mar. 2022 - may. 2022 · 3 meses"
               srcSvg={logoTecCIAC}
               parrafos={parrafosCIAC}
@@ -59,7 +59,7 @@ function App() {
               colorFondo="bg-slate-800"
             />
             <CardExperiencia_Estudios
-              cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones Desarrollo de aplicaciones multiplataforma"
+              cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones multiplataforma"
               empresa_instituto="CIFP César Manrique Formación Profesional"
               fecha="sept. 2020 - jun. 2022"
               srcSvg={logoDAM}
@@ -72,19 +72,19 @@ function App() {
             <h2 className="text-3xl  text-white text-center">Habilidades</h2>
             <h3 className="text-2xl  text-white text-center">Frameworks</h3>
             <ListSvg srcSvg={logoFrameworks}></ListSvg>
-            <h3 className="text-2xl  text-white text-center">
+            <h3 className="text-2xl pt-6 text-white text-center">
               Lenguajes de programación
             </h3>
             <ListSvg srcSvg={logoLenguajes}></ListSvg>
-            <h3 className="text-2xl  text-white text-center">IDEs</h3>
+            <h3 className="text-2xl pt-6  text-white text-center">IDEs</h3>
             <ListSvg srcSvg={logoIDEs}></ListSvg>
-            <h3 className="text-2xl  text-white text-center">Herramientas</h3>
+            <h3 className="text-2xl pt-6 text-white text-center">Herramientas</h3>
             <ListSvg srcSvg={logoHerramientas}></ListSvg>
           </article>
         </section>
         <section
           id="Proyectos"
-          className="flex flex-col items-center px-3 space-y-2 py-5 max-w-screen-lg text-white "
+          className="flex flex-col items-center px-3 space-y-2 pt-24 pb-5 max-w-screen-lg text-white "
         >
           <h2 className="text-5xl mb-5">Proyectos</h2>
           <CardProyecto

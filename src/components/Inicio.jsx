@@ -12,7 +12,7 @@ export function Inicio() {
         />
         <div className="flex flex-col items-center text-center space-y-1 md:items-start ">
           <h2 className="text-5xl text-yellow-300">Víctor Marrero Carrillo</h2>
-          <h3 className="text-3xl text-blue-300">Full Stack Developer</h3>
+          <h3 className="text-3xl text-blue-300">Desarrollador Full Stack</h3>
           <p className="text-xl text-white text-balance">
             Desarrollador con experiencia en aplicaciones web y multiplataforma{" "}
             <span className="text-3xl"> 👨‍💻 </span>

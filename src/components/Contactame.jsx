@@ -2,12 +2,12 @@ export function Contactame() {
   return (
     <section
       id="Contactame"
-      className=" max-w-screen-lg space-y-3 text-center  w-full px-3 py-4"
+      className=" max-w-screen-lg space-y-3 text-center  w-full px-3 pt-24  pb-5"
     >
       <h1 className="text-5xl mb-5 text-white text-center">Contáctame</h1>
       <article className=" shadow-lg shadow-black rounded-3xl py-8 bg-slate-950 mx-4 space-y-2">
         <h2 className="text-white py-3 mx-1">
-          No dudes en contactarme si mi perfil te parece interesante{" "}
+        No dudes en contactarme. Aquí están mis métodos de contacto.
         </h2>
         <div className="flex  items-center justify-center align-middle p-3 space-x-reverse lg:space-x-6">
           <a
