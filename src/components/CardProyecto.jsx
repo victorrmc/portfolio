@@ -19,16 +19,14 @@ export function CardProyecto({
         />
 
         <div className="absolute hidden space-x-3 group-hover:flex  ">
-          <a
-            className="jello-horizontal "
-            href={enlaceGithub}
-          >
+          <a className="jello-horizontal " href={enlaceGithub} target="_blank">
             Código
             <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
           </a>
-          <a href={enlaceWeb} >
+          <a href={enlaceWeb} target="_blank">
             Página
             <img
+              loading="lazy"
               className="w-10 ml-0.5  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 "
               src="Enlace.svg"
               alt="Logo de enlace"
@@ -37,16 +35,18 @@ export function CardProyecto({
         </div>
       </div>
       <div className="grid m-3 space-y-2 ">
-        <h3 className={`text-2xl ${colortitulo}` }>{titulo}</h3>
+        <header>
+          <h3 className={`text-2xl ${colortitulo}`}>{titulo}</h3>
+        </header>
         {parrafos.map((element, index) => (
           <p key={index} className="text-white">
             {element}
           </p>
         ))}
-        <div className="space-y-3 text-center">
+        <footer className="space-y-3 text-center">
           <h4 className="font-bold py-3">Tecnologías utilizadas:</h4>
-          <ListSvg srcSvg={srcSvg} altura={altura}/>
-        </div>
+          <ListSvg srcSvg={srcSvg} altura={altura} />
+        </footer>
       </div>
     </article>
   );

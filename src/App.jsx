@@ -33,7 +33,9 @@ function App() {
         >
           <SobreMi />
           <article className="flex flex-col my-5 space-y-3 justify-items-start ">
-            <h3 className="text-3xl text-white text-center">Experiencia</h3>
+            <header>
+              <h3 className="text-3xl text-white text-center">Experiencia</h3>
+            </header>
             <CardExperiencia_Estudios
               cargo_titulo="Desarrollador Full Stack"
               empresa_instituto="Ashotel"
@@ -50,7 +52,9 @@ function App() {
             />
           </article>
           <article className="space-y-3">
-            <h3 className="text-3xl  text-white text-center">Estudios</h3>
+            <header>
+              <h3 className="text-3xl  text-white text-center">Estudios</h3>
+            </header>
             <CardExperiencia_Estudios
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web"
               empresa_instituto="CIFP César Manrique Formación Profesional"
@@ -65,11 +69,11 @@ function App() {
               srcSvg={logoDAM}
               colorFondo="bg-slate-800"
             />
-            
-            
           </article>
           <article className="py-3 space-y-3 px-3">
-            <h2 className="text-3xl  text-white text-center">Habilidades</h2>
+            <header>
+              <h2 className="text-3xl  text-white text-center">Habilidades</h2>
+            </header>
             <h3 className="text-2xl  text-white text-center">Frameworks</h3>
             <ListSvg srcSvg={logoFrameworks}></ListSvg>
             <h3 className="text-2xl pt-6 text-white text-center">
@@ -78,7 +82,9 @@ function App() {
             <ListSvg srcSvg={logoLenguajes}></ListSvg>
             <h3 className="text-2xl pt-6  text-white text-center">IDEs</h3>
             <ListSvg srcSvg={logoIDEs}></ListSvg>
-            <h3 className="text-2xl pt-6 text-white text-center">Herramientas</h3>
+            <h3 className="text-2xl pt-6 text-white text-center">
+              Herramientas
+            </h3>
             <ListSvg srcSvg={logoHerramientas}></ListSvg>
           </article>
         </section>
@@ -86,7 +92,9 @@ function App() {
           id="Proyectos"
           className="flex flex-col items-center px-3 space-y-2 pt-24 pb-5 max-w-screen-lg text-white "
         >
-          <h2 className="text-5xl mb-5">Proyectos</h2>
+          <header>
+            <h2 className="text-5xl mb-5">Proyectos</h2>
+          </header>
           <CardProyecto
             imagen={"./img/OfertAlert.png"}
             enlaceGithub={"https://github.com/victorrmc/OfertAlert"}
@@ -97,12 +105,14 @@ function App() {
             colortitulo={"text-[#D68910]"}
           />
         </section>
-       
+
         <Contactame />
-        <footer className="bg-black w-full p-3">
-          <h1 className="text-white text-center">Víctor Marrero Carrillo - Portfolio</h1>
-        </footer>
       </main>
+      <footer className="bg-black w-full p-3">
+        <h1 className="text-white text-center">
+          Víctor Marrero Carrillo - Portfolio
+        </h1>
+      </footer>
     </>
   );
 }
