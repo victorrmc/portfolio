@@ -113,6 +113,7 @@ function App() {
           Víctor Marrero Carrillo - Portfolio
         </h1>
       </footer>
+      <Analytics />
     </>
   );
 }
