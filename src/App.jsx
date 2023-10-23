@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { Inicio } from "./components/Inicio";
 import { ListSvg } from "./components/ListSvg";
 import { SobreMi } from "./components/SobreMi";
+import { Analytics } from '@vercel/analytics/react';
 import {
   logoTecAshotel,
   logoTecCIAC,
