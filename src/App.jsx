@@ -33,7 +33,7 @@ function App() {
           className="flex flex-col items-center justify-center px-4 lg:pb-12  pt-24 max-w-screen-lg w-full"
         >
           <SobreMi />
-          <article className="flex flex-col my-5 space-y-3 justify-items-start ">
+          <article className="flex flex-col mt-10 mb-5 space-y-3 justify-items-start ">
             <header>
               <h3 className="text-3xl text-white text-center">Experiencia</h3>
             </header>
@@ -52,7 +52,7 @@ function App() {
               parrafos={parrafosCIAC}
             />
           </article>
-          <article className="space-y-3">
+          <article className="space-y-3 mt-10 ">
             <header>
               <h3 className="text-3xl  text-white text-center">Estudios</h3>
             </header>
@@ -71,19 +71,19 @@ function App() {
               colorFondo="bg-slate-800"
             />
           </article>
-          <article className="py-3 space-y-3 px-3">
+          <article className="py-3 space-y-3 px-3 mt-10 ">
             <header>
               <h2 className="text-3xl  text-white text-center">Habilidades</h2>
             </header>
-            <h3 className="text-2xl  text-white text-center">Frameworks</h3>
+            <h3 className="text-2xl pt-4 text-white text-center">Frameworks</h3>
             <ListSvg srcSvg={logoFrameworks}></ListSvg>
-            <h3 className="text-2xl pt-6 text-white text-center">
+            <h3 className="text-2xl pt-4 text-white text-center">
               Lenguajes de programación
             </h3>
             <ListSvg srcSvg={logoLenguajes}></ListSvg>
-            <h3 className="text-2xl pt-6  text-white text-center">IDEs</h3>
+            <h3 className="text-2xl pt-4  text-white text-center">IDEs</h3>
             <ListSvg srcSvg={logoIDEs}></ListSvg>
-            <h3 className="text-2xl pt-6 text-white text-center">
+            <h3 className="text-2xl pt-4 text-white text-center">
               Herramientas
             </h3>
             <ListSvg srcSvg={logoHerramientas}></ListSvg>
