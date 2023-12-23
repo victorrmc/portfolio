@@ -32,6 +32,9 @@ export const logoTecOferAlert = [
     {
         url: "Flask.svg",
     },
+    {
+        url: "Celery.svg",
+    },
 ];
 
 export const logoDAW = [

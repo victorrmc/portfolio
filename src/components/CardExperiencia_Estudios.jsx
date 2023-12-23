@@ -14,9 +14,9 @@ export function CardExperiencia_Estudios({
     >
       <div
         className={
-          parrafos == []
-            ? "grid text-center lg:text-left w-full lg:flex-1 lg:content-center space-y-2 mr-3"
-            : "grid text-center  w-full space-y-2 mr-3"
+          parrafos.length == 0
+            ? "grid text-center  w-full space-y-2 mr-3"
+            : "grid text-center lg:w-96  w-full space-y-2 mr-3"
         }
       >
         <header>
@@ -31,7 +31,11 @@ export function CardExperiencia_Estudios({
         <p className=" py-3 font-bold text-white">Tecnologías utilizadas:</p>
         <ListSvg srcSvg={srcSvg} altura={altura} />
       </div>
-      <div className=" space-y-3 grid lg:content-center lg:max-w-xl ">
+      <div className={
+          parrafos.length == 0
+            ? "space-y-3 grid lg:content-center lg:max-w-xl  "
+            : "space-y-3 grid lg:content-center lg:max-w-xl lg:w-full "
+        }>
         {parrafos.map((element, index) => (
           <p key={index} className="text-white">
             {element}
