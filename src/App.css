@@ -8,6 +8,7 @@ body {
 
 .botonHamburguesa>div {
   @apply bg-yellow-300 h-1 w-full rounded transition-all origin-left;
+  transition:  0.5s;
 }
 
 .botonHamburguesa.open>div:first-child {
