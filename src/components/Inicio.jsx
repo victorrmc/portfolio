@@ -21,7 +21,7 @@ export function Inicio() {
             <a
               className="ml-1 rounded-full jello-horizontal  "
               href="https://github.com/victorrmc"
-              target="_blank"
+              target="_blank" rel="noreferrer noopener"
             >
               <img
                 className="w-10 fill-black"
@@ -33,7 +33,7 @@ export function Inicio() {
             <a
               className=" rounded-full  hover:bg-white transition-all hover:drop-shadow-[0px_0px_8px_rgba(255,255,255,0.35)] "
               href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
-              target="_blank"
+              target="_blank" rel="noreferrer noopener"
             >
               <img
                 className="w-10"

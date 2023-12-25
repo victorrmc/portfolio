@@ -19,11 +19,11 @@ export function CardProyecto({
         />
 
         <div className="absolute hidden space-x-3 group-hover:flex  ">
-          <a className="jello-horizontal " href={enlaceGithub} target="_blank">
+          <a className="jello-horizontal " href={enlaceGithub} target="_blank" rel="noreferrer noopener">
             Código
             <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
           </a>
-          <a href={enlaceWeb} target="_blank">
+          <a href={enlaceWeb} target="_blank" rel="noreferrer noopener">
             Página
             <img
               loading="lazy"

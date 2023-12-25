@@ -1,30 +1,55 @@
-body{
-    @apply bg-gray-900 
+body {
+  @apply bg-gray-900
 }
+
+.botonHamburguesa {
+  @apply flex flex-col border-0 bg-transparent gap-2.5;
+}
+
+.botonHamburguesa>div {
+  @apply bg-yellow-300 h-1 w-full rounded transition-all origin-left;
+}
+
+.botonHamburguesa.open>div:first-child {
+  transform: rotate(45deg);
+}
+
+.botonHamburguesa.open>div:nth-child(2) {
+  opacity: 0;
+}
+
+.botonHamburguesa.open>div:last-child {
+  transform: rotate(-45deg);
+}
+
 body::-webkit-scrollbar {
   width: 4px;
   background-color: black;
 }
 
 body::-webkit-scrollbar-thumb {
-   background-color: rgb(253 224 71); ;
-   border-radius: 15px;
-}
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-html{
-    @apply scroll-smooth
-}
-.text-balance{
-    text-wrap: balance;
+  background-color: rgb(253 224 71);
+  ;
+  border-radius: 15px;
 }
 
-.jello-horizontal :hover{
-	-webkit-animation: jello-horizontal 0.9s both;
-	        animation: jello-horizontal 0.9s both;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  @apply scroll-smooth
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.jello-horizontal :hover {
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
 }
 
 .heartBeat :hover {
@@ -36,7 +61,7 @@ html{
   animation-timing-function: ease-in-out;
 }
 
-.pulse :hover{
+.pulse :hover {
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
@@ -53,96 +78,103 @@ html{
   view-timeline-axis: block;
   animation-timeline: --card;
   animation-name: show;
-  animation-range: entry 25% cover 45% ;
+  animation-range: entry 25% cover 45%;
   animation-fill-mode: both;
 }
 
 
-  @keyframes pulse {
-    from {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
-  
-    50% {
-      -webkit-transform: scale3d(1.05, 1.05, 1.05);
-      transform: scale3d(1.05, 1.05, 1.05);
-    }
-  
-    to {
-      -webkit-transform: scale3d(1, 1, 1);
-      transform: scale3d(1, 1, 1);
-    }
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
-  
-  
-  @keyframes heartBeat {
-    0% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-  
-    14% {
-      -webkit-transform: scale(1.3);
-      transform: scale(1.3);
-    }
-  
-    28% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
-  
-    42% {
-      -webkit-transform: scale(1.3);
-      transform: scale(1.3);
-    }
-  
-    70% {
-      -webkit-transform: scale(1);
-      transform: scale(1);
-    }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
   }
-  
-  @keyframes jello-horizontal {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(1.15, 0.85, 1);
-              transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
-  
-  
-@keyframes show{
-    from {
-        opacity: 0;
-        scale: 25%;
-    }
-    to {
-        opacity: 1;
-        scale: 100%;
-    }
-    
+}
+
+
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  28% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+
 }

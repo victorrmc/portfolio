@@ -15,7 +15,7 @@ export function Contactame() {
           <a
             className="flex flex-1 flex-col items-center justify-center  rounded-full"
             href="https://github.com/victorrmc"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <p className="text-white te">Código</p>
             <div className="jello-horizontal ">
@@ -30,7 +30,7 @@ export function Contactame() {
           <a
             className=" flex flex-1 flex-col items-center justify-center "
             href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <p className="text-white">LinkedIn</p>
             <img
@@ -43,7 +43,7 @@ export function Contactame() {
           <a
             className=" flex-1 p-1 flex flex-col items-center justify-center "
             href="mailto:victortenemc@gmail.com"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <p className="text-white">Gmail</p>
             <div className="heartBeat">
@@ -60,7 +60,7 @@ export function Contactame() {
             className=" flex-1 flex flex-col items-center justify-center"
             href="/CV/CV-VictorMarreroCarrillo.pdf"
             title="Curriculum Vitae"
-            target="_blank"
+            target="_blank" rel="noreferrer noopener"
           >
             <p className="text-white ">Currículum Vitae</p>
             <p className="w-14 h-14  rounded-lg animated heartBeat bg-yellow-300 flex align-middle justify-center flex-col   mt-1  hover:bg-black hover:text-yellow-300 text-black text-2xl">
