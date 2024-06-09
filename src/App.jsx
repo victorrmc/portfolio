@@ -6,11 +6,12 @@ import { Header } from "./components/Header";
 import { Inicio } from "./components/Inicio";
 import { ListSvg } from "./components/ListSvg";
 import { SobreMi } from "./components/SobreMi";
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 import {
   logoTecAshotel,
   logoTecCIAC,
   logoTecOferAlert,
+  logoTeBitbox,
   parrafosAshotel,
   parrafosCIAC,
   parrafosOferAlert,
@@ -20,6 +21,7 @@ import {
   logoLenguajes,
   logoIDEs,
   logoHerramientas,
+  parrafosBitbox,
 } from "./constans";
 
 function App() {
@@ -37,6 +39,13 @@ function App() {
             <header>
               <h3 className="text-3xl text-white text-center">Experiencia</h3>
             </header>
+            <CardExperiencia_Estudios
+              cargo_titulo="Analista Programador"
+              empresa_instituto="Bitbox - IKEA"
+              fecha="dec. 2023 - Actualidad"
+              srcSvg={logoTeBitbox}
+              parrafos={parrafosBitbox}
+            />
             <CardExperiencia_Estudios
               cargo_titulo="Desarrollador Full Stack"
               empresa_instituto="Ashotel"

@@ -9,6 +9,7 @@ export function CardExperiencia_Estudios({
   altura,
 }) {
   return (
+    
     <div
       className={`lg:flex animatedCard mx-4 h-auto w-auto shadow-lg shadow-black ${colorFondo}  space-y-6 lg:space-y-0 rounded-3xl p-5`}
     >

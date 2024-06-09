@@ -15,6 +15,28 @@ export const logoTecAshotel = [
         url: "Wordpress.svg",
     },
 ];
+export const logoTeBitbox = [
+    {
+        url: "Java.svg",
+    },
+    {
+        url: "SpringBoot.svg",
+    },
+    {
+        url: "JavaScript.svg",
+    },
+    {
+        url: "React.svg",
+    },
+    {
+        url: "React.svg",
+        title: "React Native"
+    },
+    {
+        url: "Git.svg",
+    },
+
+];
 export const logoTecCIAC = [
     {
         url: "CSharp.svg",
@@ -189,8 +211,13 @@ export const logoHerramientas = [
 
 export const parrafosAshotel = [
     "Desarrollo y actualización de páginas web en WordPress con backend en PHP mejorando la experiencia de usuario.",
-    "Automatización de tareas mejorando la productividad de mis compañeros utilizando TypeScript para crear automatizaciones en Excel y Microsoft Power Automate con el fin de simplificar procesos internos.",    
+    "Automatización de tareas mejorando la productividad de mis compañeros utilizando TypeScript para crear automatizaciones en Excel y Microsoft Power Automate con el fin de simplificar procesos internos.",
     "Adopción del rol de líder durante el desarrollo de un Producto Mínimo Viable (MVP) en Power Apps, con el objetivo de realizar una optimización de tareas y aumento de la eficiencia operativa en la empresa.",
+];
+export const parrafosBitbox = [
+    "Como desarrollador en Bitboxer me he encargado de hacer análisis y desarrollar aplicaciones tanto en el ERP como en diferentes proyectos, actualmente estoy fijo en el proyecto de Warehouse.",
+    "He trabajado en equipo a través de herramientas como Git y Subversion, desarrollando con tecnologías como Java, JavaScript, React, React Native y Spring Boot.",
+    "También he realizado modificaciones en las librerías y pasado por todo el proceso de desarrollo: análisis, documentación, desarrollo, y resolución de problemas."
 ];
 export const parrafosCIAC = [
     "Optimización de la velocidad y eficiencia de las listas desplegables en nuestra aplicación mediante técnicas de carga, lazy load y almacenamiento en caché.",
