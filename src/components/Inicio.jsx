@@ -15,7 +15,7 @@ export function Inicio() {
           <h2 className="text-3xl text-blue-300">Desarrollador Full Stack</h2>
           <p className="text-xl text-white text-balance">
             Experiencia en aplicaciones web y multiplataforma{" "}
-            <span className="text-3xl"> 👨‍💻 </span>
+            <span className="text-3xl"> 👨🏽‍💻 </span>
           </p>
           <div className="flex space-x-3 pt-3">
             <a
