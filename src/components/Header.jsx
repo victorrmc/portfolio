@@ -16,7 +16,10 @@ export function Header() {
           <div></div>
           <div></div>
         </button>
-        <ul className={ showMenu ? 'flex flex-col float-right rounded-l-3xl w-min text-center list-none p-5 backdrop-opacity-10  backdrop-invert bg-black/30 text-white ' : 'hidden lg:flex lg:flex-row lg:justify-end lg:w-full  text-center list-none p-5 lg:space-x-5 lg:text-center backdrop-opacity-10  backdrop-invert pr-8 bg-black/30 text-white ' }>
+        <ul className={ showMenu ? 
+          'flex flex-col float-right rounded-l-3xl w-min text-center list-none p-5 backdrop-opacity-10  backdrop-invert bg-gray-800/30 text-white '
+          : 
+          'hidden lg:flex lg:flex-row lg:justify-end lg:w-full  text-center list-none p-5 lg:space-x-5 lg:text-center backdrop-opacity-10  backdrop-invert pr-8 bg-gray-800/30 text-white ' }>
           <a href="#">
             <li className="py-2 lg:p-2 rounded w-full  hover:bg-fuchsia-100  hover:text-gray-900">
               Inicio

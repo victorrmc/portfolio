@@ -2,7 +2,7 @@ export function Inicio() {
   return (
     <section
       id="Inicio"
-      className="flex flex-row items-center justify-center max-w-screen-lg  px-4 h-screen w-full bg-gray-900 animate-fade-up animate-once animate-duration-[3000ms] animate-delay-100"
+      className="flex flex-row items-center justify-center max-w-screen-lg  px-4 h-screen w-full animate-fade-up animate-once animate-duration-[3000ms] animate-delay-100"
     >
       <article className="flex flex-col items-center gap-2 lg:flex-row-reverse">
         <img

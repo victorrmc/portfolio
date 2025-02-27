@@ -5,7 +5,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <section className="min-h-screen w-full bg-gray-900">
+    <section className="min-h-screen w-full bg-gradient-to-r from-gray-900 to-slate-800">
       <App />
     </section>
   </React.StrictMode>
