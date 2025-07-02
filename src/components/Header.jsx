@@ -15,7 +15,7 @@ export function Header() {
 
   return (
     <header className="fixed top-0 z-10 w-full">
-      <nav className="w-full">
+      <nav className="w-screen flex flex-col items-end ">
         {/* Hamburger button */}
         <button
           onClick={handleToggleMenu}
@@ -76,11 +76,7 @@ export function Header() {
                 i18n.language === "en" ? "opacity-100" : "opacity-50"
               }`}
             >
-              <img
-                src="/img/us_flag.svg"
-                alt="US Flag"
-                className="h-6 w-6"
-              />
+              <img src="/img/us_flag.svg" alt="US Flag" className="h-6 w-6" />
             </button>
           </div>
         </div>
@@ -89,7 +85,7 @@ export function Header() {
         <ul
           className={
             showMenu
-              ? "flex flex-col lg:hidden float-right rounded-l-3xl w-min text-center list-none p-5 backdrop-opacity-10 backdrop-invert bg-gray-800/30 text-white"
+              ? "flex flex-col lg:hidden absolute top-full right-0 rounded-l-3xl w-min text-center list-none p-5 backdrop-opacity-10 backdrop-invert bg-gray-800/30 text-white"
               : "hidden"
           }
         >
@@ -100,7 +96,7 @@ export function Header() {
           </a>
           <a href="#Sobre-mi" className="m-0">
             <li className=" py-2 lg:p-2 rounded  w-full  hover:bg-fuchsia-100  hover:text-gray-900 whitespace-nowrap">
-              {t('header.about')}
+              {t("header.about")}
             </li>
           </a>
           <a href="#Proyectos">
@@ -110,7 +106,7 @@ export function Header() {
           </a>
           <a href="#Contactame">
             <li className="p-2 lg:p-2 rounded  w-full hover:bg-fuchsia-100  hover:text-gray-900 whitespace-nowrap">
-              {t('header.contact')}
+              {t("header.contact")}
             </li>
           </a>
           {/* Banderas en el menú móvil */}
@@ -133,11 +129,7 @@ export function Header() {
                 i18n.language === "en" ? "opacity-100" : "opacity-50"
               }`}
             >
-              <img
-                src="/img/us_flag.svg"
-                alt="US Flag"
-                className="h-6 w-6"
-              />
+              <img src="/img/us_flag.svg" alt="US Flag" className="h-6 w-6" />
             </button>
           </li>
         </ul>
