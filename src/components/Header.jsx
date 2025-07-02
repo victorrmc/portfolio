@@ -65,7 +65,7 @@ export function Header() {
               }`}
             >
               <img
-                src="/public/img/spain_flag.svg"
+                src="/img/spain_flag.svg"
                 alt="Spanish Flag"
                 className="h-6 w-6"
               />
@@ -77,7 +77,7 @@ export function Header() {
               }`}
             >
               <img
-                src="/public/img/us_flag.svg"
+                src="/img/us_flag.svg"
                 alt="US Flag"
                 className="h-6 w-6"
               />
@@ -122,7 +122,7 @@ export function Header() {
               }`}
             >
               <img
-                src="/public/img/spain_flag.svg"
+                src="/img/spain_flag.svg"
                 alt="Spanish Flag"
                 className="h-6 w-6"
               />
@@ -134,7 +134,7 @@ export function Header() {
               }`}
             >
               <img
-                src="/public/img/us_flag.svg"
+                src="/img/us_flag.svg"
                 alt="US Flag"
                 className="h-6 w-6"
               />
