@@ -12,19 +12,39 @@ import {
   logoTecCIAC,
   logoTecOferAlert,
   logoTeBitbox,
-  parrafosAshotel,
-  parrafosCIAC,
-  parrafosOferAlert,
   logoDAW,
   logoDAM,
   logoFrameworks,
   logoLenguajes,
   logoIDEs,
   logoHerramientas,
-  parrafosBitbox,
 } from "./constans";
+import { useTranslation } from 'react-i18next';
 
 function App() {
+  const { t } = useTranslation();
+
+  const translatedParrafosBitbox = [
+    t('experience_details.bitbox_p1'),
+    t('experience_details.bitbox_p2'),
+    t('experience_details.bitbox_p3'),
+  ];
+
+  const translatedParrafosAshotel = [
+    t('experience_details.ashotel_p1'),
+    t('experience_details.ashotel_p2'),
+    t('experience_details.ashotel_p3'),
+  ];
+
+  const translatedParrafosCIAC = [
+    t('experience_details.ciac_p1'),
+    t('experience_details.ciac_p2'),
+  ];
+
+  const translatedParrafosOferAlert = [
+    t('project_details.ofertalert_p1'),
+  ];
+
   return (
     <>
       <Header />
@@ -37,33 +57,33 @@ function App() {
           <SobreMi />
           <article className="flex flex-col mt-10 mb-5 space-y-3 justify-items-start ">
             <header>
-              <h3 className="text-3xl text-white text-center">Experiencia</h3>
+              <h3 className="text-3xl text-white text-center">{t('card_experience.experience_title')}</h3>
             </header>
             <CardExperiencia_Estudios
               cargo_titulo="Analista Programador"
               empresa_instituto="Bitbox - IKEA"
               fecha="dec. 2023 - Actualidad"
               srcSvg={logoTeBitbox}
-              parrafos={parrafosBitbox}
+              parrafos={translatedParrafosBitbox}
             />
             <CardExperiencia_Estudios
               cargo_titulo="Desarrollador Full Stack"
               empresa_instituto="Ashotel"
               fecha="mar. 2023 - may. 2023 · 3 meses"
               srcSvg={logoTecAshotel}
-              parrafos={parrafosAshotel}
+              parrafos={translatedParrafosAshotel}
             />
             <CardExperiencia_Estudios
               cargo_titulo="Desarrollador Mobile"
               empresa_instituto="CENTRO DE INFORMÁTICA Y ANÁLISIS DE CANARIAS SL"
               fecha="mar. 2022 - may. 2022 · 3 meses"
               srcSvg={logoTecCIAC}
-              parrafos={parrafosCIAC}
+              parrafos={translatedParrafosCIAC}
             />
           </article>
           <article className="space-y-3 mt-10 ">
             <header>
-              <h3 className="text-3xl  text-white text-center">Estudios</h3>
+              <h3 className="text-3xl  text-white text-center">{t('card_experience.studies_title')}</h3>
             </header>
             <CardExperiencia_Estudios
               cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web"
@@ -82,18 +102,18 @@ function App() {
           </article>
           <article className="py-3 space-y-3 px-3 mt-10 ">
             <header>
-              <h2 className="text-3xl  text-white text-center">Habilidades</h2>
+              <h2 className="text-3xl  text-white text-center">{t('card_experience.skills_title')}</h2>
             </header>
-            <h3 className="text-2xl pt-4 text-white text-center">Frameworks</h3>
+            <h3 className="text-2xl pt-4 text-white text-center">{t('card_experience.frameworks_title')}</h3>
             <ListSvg srcSvg={logoFrameworks}></ListSvg>
             <h3 className="text-2xl pt-4 text-white text-center">
-              Lenguajes de programación
+              {t('card_experience.languages_title')}
             </h3>
             <ListSvg srcSvg={logoLenguajes}></ListSvg>
-            <h3 className="text-2xl pt-4  text-white text-center">IDEs</h3>
+            <h3 className="text-2xl pt-4  text-white text-center">{t('card_experience.ides_title')}</h3>
             <ListSvg srcSvg={logoIDEs}></ListSvg>
             <h3 className="text-2xl pt-4 text-white text-center">
-              Herramientas
+              {t('card_experience.tools_title')}
             </h3>
             <ListSvg srcSvg={logoHerramientas}></ListSvg>
           </article>
@@ -103,14 +123,14 @@ function App() {
           className="flex flex-col items-center px-3 space-y-2 pt-24 pb-5 max-w-screen-lg text-white "
         >
           <header>
-            <h2 className="text-5xl mb-5">Proyectos</h2>
+            <h2 className="text-5xl mb-5">{t('header.projects')}</h2>
           </header>
           <CardProyecto
             imagen={"./img/OfertAlert.png"}
             enlaceGithub={"https://github.com/victorrmc/OfertAlert"}
             enlaceWeb={"https://ofertalert.vercel.app/"}
             titulo={"OfertAlert"}
-            parrafos={parrafosOferAlert}
+            parrafos={translatedParrafosOferAlert}
             srcSvg={logoTecOferAlert}
             colortitulo={"text-[#D68910]"}
           />
@@ -120,7 +140,7 @@ function App() {
       </main>
       <footer className="bg-black w-full p-3">
         <h1 className="text-white text-center">
-          Víctor Marrero Carrillo - Portfolio
+          {t('footer.text')}
         </h1>
       </footer>
       <Analytics />

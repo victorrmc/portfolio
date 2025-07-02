@@ -1,4 +1,6 @@
 import { ListSvg } from "./ListSvg";
+import { useTranslation } from 'react-i18next';
+
 export function CardProyecto({
   imagen,
   enlaceGithub,
@@ -9,22 +11,24 @@ export function CardProyecto({
   srcSvg,
   altura,
 }) {
+  const { t } = useTranslation();
+
   return (
     <article className="relative animatedCard mx-4 bg-slate-700 shadow-lg shadow-black rounded-3xl">
       <div className="group flex items-center justify-center">
         <img
           className="rounded-t-3xl  group-hover:opacity-30"
           src={imagen}
-          alt={"Imagen de la pagina web " + titulo}
+          alt={t('card_project.image_alt', { title: titulo })}
         />
 
         <div className="absolute hidden space-x-3 group-hover:flex  ">
           <a className="jello-horizontal " href={enlaceGithub} target="_blank" rel="noreferrer noopener">
-            Código
+            {t('card_project.code')}
             <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
           </a>
           <a href={enlaceWeb} target="_blank" rel="noreferrer noopener">
-            Página
+            {t('card_project.page')}
             <img
               loading="lazy"
               className="w-10 ml-0.5  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 "
@@ -44,7 +48,7 @@ export function CardProyecto({
           </p>
         ))}
         <footer className="space-y-3 text-center">
-          <h4 className="font-bold py-3">Tecnologías utilizadas:</h4>
+          <h4 className="font-bold py-3">{t('card_project.technologies_used')}</h4>
           <ListSvg srcSvg={srcSvg} altura={altura} />
         </footer>
       </div>

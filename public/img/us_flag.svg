@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 1000">
+  <!-- 13 Stripes -->
+  <rect width="1900" height="76.92" fill="#B22234"/>
+  <rect y="76.92" width="1900" height="76.92" fill="#FFFFFF"/>
+  <rect y="153.84" width="1900" height="76.92" fill="#B22234"/>
+  <rect y="230.76" width="1900" height="76.92" fill="#FFFFFF"/>
+  <rect y="307.68" width="1900" height="76.92" fill="#B22234"/>
+  <rect y="384.6" width="1900" height="76.92" fill="#FFFFFF"/>
+  <rect y="461.52" width="1900" height="76.92" fill="#B22234"/>
+  <rect y="538.44" width="1900" height="76.92" fill="#FFFFFF"/>
+  <rect y="615.36" width="1900" height="76.92" fill="#B22234"/>
+  <rect y="692.28" width="1900" height="76.92" fill="#FFFFFF"/>
+  <rect y="769.2" width="1900" height="76.92" fill="#B22234"/>
+  <rect y="846.12" width="1900" height="76.92" fill="#FFFFFF"/>
+  <rect y="923.04" width="1900" height="76.92" fill="#B22234"/>
+
+  <!-- Blue Canton (Union) -->
+  <rect width="760" height="538.44" fill="#3C3B6E"/>
+
+  <!-- Simplified Stars (representing the star field) -->
+  <g fill="#FFFFFF">
+    <circle cx="100" cy="100" r="20"/>
+    <circle cx="250" cy="100" r="20"/>
+    <circle cx="400" cy="100" r="20"/>
+    <circle cx="550" cy="100" r="20"/>
+
+    <circle cx="175" cy="200" r="20"/>
+    <circle cx="325" cy="200" r="20"/>
+    <circle cx="475" cy="200" r="20"/>
+
+    <circle cx="100" cy="300" r="20"/>
+    <circle cx="250" cy="300" r="20"/>
+    <circle cx="400" cy="300" r="20"/>
+    <circle cx="550" cy="300" r="20"/>
+
+    <circle cx="175" cy="400" r="20"/>
+    <circle cx="325" cy="400" r="20"/>
+    <circle cx="475" cy="400" r="20"/>
+  </g>
+</svg>

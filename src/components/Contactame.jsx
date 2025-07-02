@@ -1,15 +1,19 @@
+import { useTranslation } from 'react-i18next';
+
 export function Contactame() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="Contactame"
       className=" max-w-screen-lg space-y-3 text-center  w-full px-3 pt-24  pb-5"
     >
       <header>
-        <h1 className="text-5xl mb-5 text-white text-center">Contáctame</h1>
+        <h1 className="text-5xl mb-5 text-white text-center">{t('contact.title')}</h1>
       </header>
       <article className=" shadow-lg shadow-black rounded-3xl py-8 bg-slate-950 mx-4 space-y-2">
         <h2 className="text-white py-3 mx-1">
-          No dudes en contactarme. Aquí están mis métodos de contacto.
+          {t('contact.subtitle')}
         </h2>
         <div className="flex  items-center justify-center align-middle p-3 space-x-reverse lg:space-x-6">
           <a
@@ -17,7 +21,7 @@ export function Contactame() {
             href="https://github.com/victorrmc"
             target="_blank" rel="noreferrer noopener"
           >
-            <p className="text-white te">Código</p>
+            <p className="text-white te">{t('contact.code')}</p>
             <div className="jello-horizontal ">
               <img
                 className="w-14 mt-1"
@@ -59,10 +63,10 @@ export function Contactame() {
           <a
             className=" flex-1 flex flex-col items-center justify-center"
             href="/CV/CV-VictorMarreroCarrillo.pdf"
-            title="Curriculum Vitae"
+            title={t('contact.cv_title')}
             target="_blank" rel="noreferrer noopener"
           >
-            <p className="text-white ">Currículum Vitae</p>
+            <p className="text-white ">{t('contact.cv_text')}</p>
             <p className="w-14 h-14  rounded-lg animated heartBeat bg-yellow-300 flex align-middle justify-center flex-col   mt-1  hover:bg-black hover:text-yellow-300 text-black text-2xl">
               CV
             </p>

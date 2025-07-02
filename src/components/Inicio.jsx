@@ -1,4 +1,8 @@
+import { useTranslation } from 'react-i18next';
+
 export function Inicio() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="Inicio"
@@ -7,14 +11,14 @@ export function Inicio() {
       <article className="flex flex-col items-center gap-2 lg:flex-row-reverse">
         <img
           src="img/FotoPerfil.jpg"
-          alt="Foto frontal Víctor Marrero Carrillo"
+          alt={t('inicio.profile_alt')}
           className="w-52 rounded-full lg:ml-12"
         />
         <div className="flex flex-col items-center text-center space-y-1 md:items-start ">
           <h1 className="text-5xl text-yellow-300">Víctor Marrero Carrillo</h1>
-          <h2 className="text-3xl text-blue-300">Desarrollador Full Stack</h2>
+          <h2 className="text-3xl text-blue-300">{t('inicio.title')}</h2>
           <p className="text-xl text-white text-balance">
-            Experiencia en aplicaciones web y multiplataforma{" "}
+            {t('inicio.description')}{" "}
             <span className="text-3xl"> 👨🏽‍💻 </span>
           </p>
           <div className="flex space-x-3 pt-3">
@@ -47,7 +51,7 @@ export function Inicio() {
             <a
               className="rounded-lg animated heartBeat bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
               href="/CV/CV-VictorMarreroCarrillo.pdf"
-              title="Curriculum Vitae"
+              title={t('inicio.cv_title')}
               target="_blank"
             >
               CV

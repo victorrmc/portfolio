@@ -1,0 +1,58 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Projects",
+    "contact": "Contact me"
+  },
+  "inicio": {
+    "profile_alt": "Front photo Victor Marrero Carrillo",
+    "title": "Full Stack Developer",
+    "description": "Experience in web and cross-platform applications",
+    "cv_title": "Curriculum Vitae"
+  },
+  "about": {
+    "title": "About me",
+    "paragraph1": "I am a passionate software developer with previous experience in the sector.",
+    "paragraph2": "I am looking for technological challenges and opportunities to continue growing in the world of software development. Contact me to explore new possibilities together!"
+  },
+  "contact": {
+    "title": "Contact me",
+    "subtitle": "Don't hesitate to contact me. Here are my contact methods.",
+    "code": "Code",
+    "cv_title": "Curriculum Vitae",
+    "cv_text": "Curriculum Vitae"
+  },
+  "card_experience": {
+    "technologies_used": "Technologies used:",
+    "experience_title": "Experience",
+    "studies_title": "Studies",
+    "skills_title": "Skills",
+    "frameworks_title": "Frameworks",
+    "languages_title": "Programming Languages",
+    "ides_title": "IDEs",
+    "tools_title": "Tools"
+  },
+  "experience_details": {
+    "bitbox_p1": "As a developer at Bitboxer, I have been responsible for analyzing and developing parts of applications in both the ERP and different projects. I have held meetings with external projects in English.",
+    "bitbox_p2": "I have worked in a team using tools such as Git and Subversion, developing with technologies such as Java, JavaScript, React, Expo, and Spring Boot.",
+    "bitbox_p3": "I have also made modifications to libraries and gone through the entire development process: analysis, documentation, development, and problem solving.",
+    "ashotel_p1": "Development and updating of WordPress websites with PHP backend, improving user experience.",
+    "ashotel_p2": "Automation of tasks improving the productivity of my colleagues using TypeScript to create automations in Excel and Microsoft Power Automate in order to simplify internal processes.",
+    "ashotel_p3": "Adoption of a leadership role during the development of a Minimum Viable Product (MVP) in Power Apps, with the aim of optimizing tasks and increasing operational efficiency in the company.",
+    "ciac_p1": "Optimization of the speed and efficiency of dropdown lists in our application using loading techniques, lazy load, and caching.",
+    "ciac_p2": "Adoption of a leadership role in the successful creation of a new section of the application, creating new functionalities for it."
+  },
+  "project_details": {
+    "ofertalert_p1": "Real-time offer tracking web application. With OfertAlert, you can enter a link and receive email notifications every time the associated item is on sale."
+  },
+  "card_project": {
+    "image_alt": "Website image {{title}}",
+    "code": "Code",
+    "page": "Page",
+    "technologies_used": "Technologies used:"
+  },
+  "footer": {
+    "text": "Víctor Marrero Carrillo - Portfolio"
+  }
+}

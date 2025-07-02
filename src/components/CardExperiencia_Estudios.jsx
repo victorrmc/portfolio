@@ -1,4 +1,6 @@
 import { ListSvg } from "./ListSvg";
+import { useTranslation } from 'react-i18next';
+
 export function CardExperiencia_Estudios({
   cargo_titulo,
   empresa_instituto,
@@ -8,6 +10,8 @@ export function CardExperiencia_Estudios({
   colorFondo,
   altura,
 }) {
+  const { t } = useTranslation();
+
   return (
     
     <div
@@ -29,7 +33,7 @@ export function CardExperiencia_Estudios({
           </p>
         </header>
         <p className="font-mono text-white">{fecha}</p>
-        <p className=" py-3 font-bold text-white">Tecnologías utilizadas:</p>
+        <p className=" py-3 font-bold text-white">{t('card_experience.technologies_used')}</p>
         <ListSvg srcSvg={srcSvg} altura={altura} />
       </div>
       <div className={
