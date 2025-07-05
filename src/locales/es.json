@@ -44,7 +44,26 @@
     "ciac_p2": "Adopción del rol de líder en la creación exitosa de una nueva sección de la aplicación, creando nuevas funciones a esta."
   },
   "project_details": {
-    "ofertalert_p1": "Aplicación web de seguimiento de ofertas en tiempo real. Con OfertAlert, puedes ingresar un enlace y recibir notificaciones por correo electrónico cada vez que el artículo asociado esté en oferta."
+    "ofertalert_p1": "Aplicación web de seguimiento de ofertas en tiempo real. Con OfertAlert, puedes introducir un enlace y recibir notificaciones por correo electrónico cada vez que el artículo asociado esté en oferta."
+  },
+  "experience_jobs": {
+    "analyst_programmer": "Analista Programador",
+    "full_stack_developer": "Desarrollador Full Stack",
+    "mobile_developer": "Desarrollador Móvil",
+    "bitbox": "Bitbox - IKEA",
+    "ashotel": "Ashotel",
+    "ciac": "CENTRO DE INFORMÁTICA Y ANÁLISIS DE CANARIAS SL",
+    "date_bitbox": "dic. 2023 - Actualidad",
+    "date_ashotel": "mar. 2023 - may. 2023 · 3 meses",
+    "date_ciac": "mar. 2022 - may. 2022 · 3 meses"
+  },
+  "studies": {
+    "web_development_title": "Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web",
+    "web_development_institute": "CIFP César Manrique Formación Profesional",
+    "web_development_date": "sept. 2022 - jun. 2023",
+    "multiplatform_development_title": "Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones multiplataforma",
+    "multiplatform_development_institute": "CIFP César Manrique Formación Profesional",
+    "multiplatform_development_date": "sept. 2020 - jun. 2022"
   },
   "card_project": {
     "image_alt": "Imagen de la pagina web {{title}}",

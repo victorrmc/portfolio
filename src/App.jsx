@@ -60,23 +60,23 @@ function App() {
               <h3 className="text-3xl text-white text-center">{t('card_experience.experience_title')}</h3>
             </header>
             <CardExperiencia_Estudios
-              cargo_titulo="Analista Programador"
-              empresa_instituto="Bitbox - IKEA"
-              fecha="dec. 2023 - Actualidad"
+              cargo_titulo={t('experience_jobs.analyst_programmer')}
+              empresa_instituto={t('experience_jobs.bitbox')}
+              fecha={t('experience_jobs.date_bitbox')}
               srcSvg={logoTeBitbox}
               parrafos={translatedParrafosBitbox}
             />
             <CardExperiencia_Estudios
-              cargo_titulo="Desarrollador Full Stack"
-              empresa_instituto="Ashotel"
-              fecha="mar. 2023 - may. 2023 · 3 meses"
+              cargo_titulo={t('experience_jobs.full_stack_developer')}
+              empresa_instituto={t('experience_jobs.ashotel')}
+              fecha={t('experience_jobs.date_ashotel')}
               srcSvg={logoTecAshotel}
               parrafos={translatedParrafosAshotel}
             />
             <CardExperiencia_Estudios
-              cargo_titulo="Desarrollador Mobile"
-              empresa_instituto="CENTRO DE INFORMÁTICA Y ANÁLISIS DE CANARIAS SL"
-              fecha="mar. 2022 - may. 2022 · 3 meses"
+              cargo_titulo={t('experience_jobs.mobile_developer')}
+              empresa_instituto={t('experience_jobs.ciac')}
+              fecha={t('experience_jobs.date_ciac')}
               srcSvg={logoTecCIAC}
               parrafos={translatedParrafosCIAC}
             />
@@ -86,16 +86,16 @@ function App() {
               <h3 className="text-3xl  text-white text-center">{t('card_experience.studies_title')}</h3>
             </header>
             <CardExperiencia_Estudios
-              cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web"
-              empresa_instituto="CIFP César Manrique Formación Profesional"
-              fecha="sept. 2022 - jun. 2023"
+              cargo_titulo={t('studies.web_development_title')}
+              empresa_instituto={t('studies.web_development_institute')}
+              fecha={t('studies.web_development_date')}
               srcSvg={logoDAW}
               colorFondo="bg-slate-800"
             />
             <CardExperiencia_Estudios
-              cargo_titulo="Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones multiplataforma"
-              empresa_instituto="CIFP César Manrique Formación Profesional"
-              fecha="sept. 2020 - jun. 2022"
+              cargo_titulo={t('studies.multiplatform_development_title')}
+              empresa_instituto={t('studies.multiplatform_development_institute')}
+              fecha={t('studies.multiplatform_development_date')}
               srcSvg={logoDAM}
               colorFondo="bg-slate-800"
             />
