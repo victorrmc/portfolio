@@ -33,8 +33,14 @@ export function CardExperiencia_Estudios({
           </p>
         </header>
         <p className="font-mono text-white">{fecha}</p>
-        <p className=" py-3 font-bold text-white">{t('card_experience.technologies_used')}</p>
-        <ListSvg srcSvg={srcSvg} altura={altura} />
+        {
+          (srcSvg && srcSvg.length > 0) && (
+            <>
+              <p className="py-3 font-bold text-white">{t('card_experience.technologies_used')}</p>
+              <ListSvg srcSvg={srcSvg} altura={altura} />
+            </>
+          )
+        }
       </div>
       <div className={
           parrafos.length == 0

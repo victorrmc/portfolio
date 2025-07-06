@@ -86,6 +86,12 @@ function App() {
               <h3 className="text-3xl  text-white text-center">{t('card_experience.studies_title')}</h3>
             </header>
             <CardExperiencia_Estudios
+              cargo_titulo={t('studies.b2_cambridge_title')}
+              empresa_instituto={t('studies.b2_cambridge_institute')}
+              fecha={t('studies.b2_cambridge_date')}
+              colorFondo="bg-slate-800"
+            />
+            <CardExperiencia_Estudios
               cargo_titulo={t('studies.web_development_title')}
               empresa_instituto={t('studies.web_development_institute')}
               fecha={t('studies.web_development_date')}
