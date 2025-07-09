@@ -44,7 +44,7 @@
     "ciac_p2": "Adoption of a leadership role in the successful creation of a new section of the application, creating new functionalities for it."
   },
   "project_details": {
-    "ofertalert_p1": "Real-time offer tracking web application. With OfertAlert, you can enter a link and receive email notifications every time the associated item is on sale."
+    "offeralert_p1": "OfferAlert is a mobile application that helps you track prices and receive notifications for your favorite products. Simply share the product URL, and we'll notify you when the price drops or a special offer becomes available."
   },
   "card_project": {
     "image_alt": "Website image {{title}}",

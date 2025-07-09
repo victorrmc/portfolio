@@ -46,15 +46,15 @@ export const logoTecCIAC = [
   },
 ];
 
-export const logoTecOferAlert = [
+export const logoTecOfferAlert = [
   {
-    url: "Python.svg",
+    url: "Expo.svg",
   },
   {
-    url: "Flask.svg",
+    url: "Typescript.svg",
   },
   {
-    url: "Celery.svg",
+    url: "Tailwind.svg",
   },
 ];
 
@@ -226,6 +226,6 @@ export const parrafosCIAC = [
   "Optimización de la velocidad y eficiencia de las listas desplegables en nuestra aplicación mediante técnicas de carga, lazy load y almacenamiento en caché.",
   "Adopción del rol de líder en la creación exitosa de una nueva sección de la aplicación, creando nuevas funciones a esta.",
 ];
-export const parrafosOferAlert = [
-  "Aplicación web de seguimiento de ofertas en tiempo real. Con OfertAlert, puedes ingresar un enlace y recibir notificaciones por correo electrónico cada vez que el artículo asociado esté en oferta.",
+export const parrafosOfferAlert = [
+  "Aplicación web de seguimiento de ofertas en tiempo real. Con OfferAlert, puedes ingresar un enlace y recibir notificaciones por correo electrónico cada vez que el artículo asociado esté en oferta.",
 ];

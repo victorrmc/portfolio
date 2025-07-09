@@ -44,7 +44,7 @@
     "ciac_p2": "Adopción del rol de líder en la creación exitosa de una nueva sección de la aplicación, creando nuevas funciones a esta."
   },
   "project_details": {
-    "ofertalert_p1": "Aplicación web de seguimiento de ofertas en tiempo real. Con OfertAlert, puedes ingresar un enlace y recibir notificaciones por correo electrónico cada vez que el artículo asociado esté en oferta."
+    "offeralert_p1": "OfferAlert es una aplicación móvil que te ayuda a seguir los precios y recibir notificaciones de tus productos favoritos. Solo tienes que compartir la URL del producto y te avisaremos cuando baje de precio o haya una oferta especial disponible."
   },
   "card_project": {
     "image_alt": "Imagen de la pagina web {{title}}",
