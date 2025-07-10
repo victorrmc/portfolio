@@ -46,6 +46,28 @@
   "project_details": {
     "offeralert_p1": "OfferAlert es una aplicación móvil que te ayuda a seguir los precios y recibir notificaciones de tus productos favoritos. Solo tienes que compartir la URL del producto y te avisaremos cuando baje de precio o haya una oferta especial disponible."
   },
+  "experience_jobs": {
+    "analyst_programmer": "Analista Programador",
+    "full_stack_developer": "Desarrollador Full Stack",
+    "mobile_developer": "Desarrollador Móvil",
+    "bitbox": "Bitbox - IKEA",
+    "ashotel": "Ashotel",
+    "ciac": "CENTRO DE INFORMÁTICA Y ANÁLISIS DE CANARIAS SL",
+    "date_bitbox": "dic. 2023 - Actualidad",
+    "date_ashotel": "mar. 2023 - may. 2023 · 3 meses",
+    "date_ciac": "mar. 2022 - may. 2022 · 3 meses"
+  },
+  "studies": {
+    "b2_cambridge_title": "Certificación de Inglés B2 Cambridge",
+    "b2_cambridge_institute": "Cambridge University Press & Assessment",
+    "b2_cambridge_date": "jun. 2025",
+    "web_development_title": "Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones web",
+    "web_development_institute": "CIFP César Manrique Formación Profesional",
+    "web_development_date": "sept. 2022 - jun. 2023",
+    "multiplatform_development_title": "Ciclo Formativo de Grado Superior - Desarrollo de aplicaciones multiplataforma",
+    "multiplatform_development_institute": "CIFP César Manrique Formación Profesional",
+    "multiplatform_development_date": "sept. 2020 - jun. 2022"
+  },
   "card_project": {
     "image_alt": "Imagen de la pagina web {{title}}",
     "code": "Código",
