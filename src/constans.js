@@ -1,6 +1,6 @@
 export const logoTecAshotel = [
   {
-    url: "Typescript.svg",
+    url: "TypeScript.svg",
   },
   {
     url: "PHP.svg",
@@ -51,10 +51,19 @@ export const logoTecOfferAlert = [
     url: "Expo.svg",
   },
   {
-    url: "Typescript.svg",
+    url: "TypeScript.svg",
   },
   {
     url: "Tailwind.svg",
+  },
+  {
+    url: "ExpressJS.svg",
+  },
+  {
+    url: "MongoDB.svg",
+  },
+  {
+    url: "Jest.svg",
   },
 ];
 
@@ -137,11 +146,16 @@ export const logoFrameworks = [
   },
   {
     url: "Expo.svg",
-    title: "Expo",
+  },
+  {
+    url: "ExpressJS.svg",
   },
 ];
 
 export const logoLenguajes = [
+  {
+    url: "TypeScript.svg",
+  },
   {
     url: "JavaScript.svg",
   },
@@ -160,6 +174,9 @@ export const logoLenguajes = [
   },
   {
     url: "SQL.svg",
+  },
+  {
+    url: "MongoDB.svg",
   },
   {
     url: "HTML5.svg",
