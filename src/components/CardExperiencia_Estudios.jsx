@@ -9,6 +9,7 @@ export function CardExperiencia_Estudios({
   parrafos = [],
   colorFondo,
   altura,
+  enlaces,
 }) {
   const { t } = useTranslation();
 
@@ -32,6 +33,23 @@ export function CardExperiencia_Estudios({
             {empresa_instituto}
           </p>
         </header>
+        {
+          enlaces && enlaces.length > 0 && (
+            <div className="flex justify-center space-x-3">
+              {enlaces.map((enlace, index) => (
+                <a
+                  key={index}
+                  href={enlace.url}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="text-white hover:underline"
+                >
+                  {enlace.texto}
+                </a>
+              ))}
+            </div>
+          )
+        }
         <p className="font-mono text-white">{fecha}</p>
         {
           (srcSvg && srcSvg.length > 0) && (

@@ -50,7 +50,7 @@ export function Inicio() {
             </a>
             <a
               className="rounded-lg animated heartBeat bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
-              href="/CV/CV-VictorMarreroCarrillo.pdf"
+              href="/CV/CV-VictorMarreroCarrilloEnglish.pdf"
               title={t('inicio.cv_title')}
               target="_blank"
             >

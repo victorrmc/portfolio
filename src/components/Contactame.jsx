@@ -62,7 +62,7 @@ export function Contactame() {
 
           <a
             className=" flex-1 flex flex-col items-center justify-center"
-            href="/CV/CV-VictorMarreroCarrillo.pdf"
+            href="/CV/CV-VictorMarreroCarrilloEnglish.pdf"
             title={t('contact.cv_title')}
             target="_blank" rel="noreferrer noopener"
           >
