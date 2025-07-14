@@ -92,7 +92,7 @@ function App() {
               empresa_instituto={t('studies.b2_cambridge_institute')}
               fecha={t('studies.b2_cambridge_date')}
               colorFondo="bg-slate-800"
-              enlaces={[{url: 'CV/CV-VictorMarreroCarrilloEnglish.pdf', texto: t('studies.b2_cambridge_certificate')}]}
+              enlaces={[{url: 'certificates/CambridgeB2certification.pdf', texto: t('studies.b2_cambridge_certificate')}]}
             />
             <CardExperiencia_Estudios
               cargo_titulo={t('studies.web_development_title')}
