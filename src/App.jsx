@@ -143,6 +143,7 @@ function App() {
 
           <CardProyecto
             imagen={"./img/OfferAlertAllScreens.jpg"}
+            imagenWebp={"./img/OfferAlertAllScreens.webp"}
             enlaceGithub={"https://github.com/victorrmc/OfferAlertMobile"}
             titulo={"OfferAlert"}
             parrafos={translatedParrafosOfferAlert}

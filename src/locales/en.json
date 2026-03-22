@@ -3,13 +3,19 @@
     "home": "Home",
     "about": "About me",
     "projects": "Projects",
-    "contact": "Contact me"
+    "contact": "Contact me",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "lang_es": "Switch language to Spanish",
+    "lang_en": "Switch language to English"
   },
   "inicio": {
     "profile_alt": "Front photo Victor Marrero Carrillo",
     "title": "Full Stack Developer",
     "description": "Experience in web and cross-platform applications",
-    "cv_title": "Curriculum Vitae"
+    "cv_title": "Download Curriculum Vitae as PDF",
+    "github_aria": "Visit Víctor Marrero's GitHub profile",
+    "linkedin_aria": "Visit Víctor Marrero's LinkedIn profile"
   },
   "about": {
     "title": "About me",
@@ -21,7 +27,11 @@
     "subtitle": "Don't hesitate to contact me. Here are my contact methods.",
     "code": "Code",
     "cv_title": "Curriculum Vitae",
-    "cv_text": "Curriculum Vitae"
+    "cv_text": "Curriculum Vitae",
+    "github_aria": "View Víctor Marrero's code on GitHub",
+    "linkedin_aria": "View Víctor Marrero's LinkedIn profile",
+    "email_aria": "Send an email to Víctor Marrero",
+    "cv_aria": "Download Curriculum Vitae as PDF"
   },
   "card_experience": {
     "technologies_used": "Technologies used:",
@@ -73,7 +83,9 @@
     "image_alt": "Website image {{title}}",
     "code": "Code",
     "page": "Page",
-    "technologies_used": "Technologies used:"
+    "technologies_used": "Technologies used:",
+    "github_aria": "View {{title}} code on GitHub",
+    "web_aria": "View {{title}} website"
   },
   "footer": {
     "text": "Víctor Marrero Carrillo - Portfolio"
