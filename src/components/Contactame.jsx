@@ -20,14 +20,15 @@ export function Contactame() {
             className="flex flex-1 flex-col items-center justify-center  rounded-full"
             href="https://github.com/victorrmc"
             target="_blank" rel="noreferrer noopener"
+            aria-label={t('contact.github_aria')}
           >
-            <p className="text-white te">{t('contact.code')}</p>
+            <p className="text-white te" aria-hidden="true">{t('contact.code')}</p>
             <div className="jello-horizontal ">
               <img
                 className="w-14 mt-1"
                 src="Github.svg"
-                alt="GitHub"
-                title="GitHub"
+                alt=""
+                aria-hidden="true"
               />
             </div>
           </a>
@@ -35,27 +36,29 @@ export function Contactame() {
             className=" flex flex-1 flex-col items-center justify-center "
             href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
             target="_blank" rel="noreferrer noopener"
+            aria-label={t('contact.linkedin_aria')}
           >
-            <p className="text-white">LinkedIn</p>
+            <p className="text-white" aria-hidden="true">LinkedIn</p>
             <img
               className="w-14 mt-1 hover:bg-white rounded-2xl  m-1  transition-all hover:drop-shadow-[0px_0px_8px_rgba(255,255,255,0.35)]"
               src="LinkedIn.svg"
-              title="LinkedIn"
-              alt="Logo LinkedIn"
+              alt=""
+              aria-hidden="true"
             />
           </a>
           <a
             className=" flex-1 p-1 flex flex-col items-center justify-center "
             href="mailto:victortenemc@gmail.com"
             target="_blank" rel="noreferrer noopener"
+            aria-label={t('contact.email_aria')}
           >
-            <p className="text-white">Gmail</p>
+            <p className="text-white" aria-hidden="true">Gmail</p>
             <div className="heartBeat">
               <img
                 className="h-14 mt-1   hover:bg-white rounded-lg "
                 src="Gmail.svg"
-                title="Gmail"
-                alt="Logo Gmail"
+                alt=""
+                aria-hidden="true"
               />
             </div>
           </a>
@@ -63,11 +66,11 @@ export function Contactame() {
           <a
             className=" flex-1 flex flex-col items-center justify-center"
             href="/CV/CV-VictorMarreroCarrilloEnglish.pdf"
-            title={t('contact.cv_title')}
+            aria-label={t('contact.cv_aria')}
             target="_blank" rel="noreferrer noopener"
           >
-            <p className="text-white ">{t('contact.cv_text')}</p>
-            <p className="w-14 h-14  rounded-lg animated heartBeat bg-yellow-300 flex align-middle justify-center flex-col   mt-1  hover:bg-black hover:text-yellow-300 text-black text-2xl">
+            <p className="text-white " aria-hidden="true">{t('contact.cv_text')}</p>
+            <p aria-hidden="true" className="w-14 h-14  rounded-lg animated heartBeat bg-yellow-300 flex align-middle justify-center flex-col   mt-1  hover:bg-black hover:text-yellow-300 text-black text-2xl">
               CV
             </p>
           </a>

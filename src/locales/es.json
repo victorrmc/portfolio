@@ -3,13 +3,19 @@
     "home": "Inicio",
     "about": "Sobre mí",
     "projects": "Proyectos",
-    "contact": "Contácteme"
+    "contact": "Contácteme",
+    "open_menu": "Abrir menú",
+    "close_menu": "Cerrar menú",
+    "lang_es": "Cambiar idioma a español",
+    "lang_en": "Cambiar idioma a inglés"
   },
   "inicio": {
     "profile_alt": "Foto frontal Víctor Marrero Carrillo",
     "title": "Desarrollador Full Stack",
     "description": "Experiencia en aplicaciones web y multiplataforma",
-    "cv_title": "Curriculum Vitae"
+    "cv_title": "Descargar Curriculum Vitae en PDF",
+    "github_aria": "Visitar perfil de GitHub de Víctor Marrero",
+    "linkedin_aria": "Visitar perfil de LinkedIn de Víctor Marrero"
   },
   "about": {
     "title": "Sobre mí",
@@ -21,7 +27,11 @@
     "subtitle": "No dudes en contactarme. Aquí están mis métodos de contacto.",
     "code": "Código",
     "cv_title": "Curriculum Vitae",
-    "cv_text": "Currículum Vitae"
+    "cv_text": "Currículum Vitae",
+    "github_aria": "Ver código en GitHub de Víctor Marrero",
+    "linkedin_aria": "Ver perfil de LinkedIn de Víctor Marrero",
+    "email_aria": "Enviar correo a Víctor Marrero",
+    "cv_aria": "Descargar Curriculum Vitae en PDF"
   },
   "card_experience": {
     "technologies_used": "Tecnologías utilizadas:",
@@ -73,7 +83,9 @@
     "image_alt": "Imagen de la pagina web {{title}}",
     "code": "Código",
     "page": "Página",
-    "technologies_used": "Tecnologías utilizadas:"
+    "technologies_used": "Tecnologías utilizadas:",
+    "github_aria": "Ver código de {{title}} en GitHub",
+    "web_aria": "Ver página web de {{title}}"
   },
   "footer": {
     "text": "Víctor Marrero Carrillo - Portfolio"

@@ -9,11 +9,16 @@ export function Inicio() {
       className="flex flex-row items-center justify-center max-w-screen-lg  px-4 h-screen w-full animate-fade-up animate-once animate-duration-[3000ms] animate-delay-100"
     >
       <article className="flex flex-col items-center gap-2 lg:flex-row-reverse">
-        <img
-          src="img/FotoPerfil.jpg"
-          alt={t('inicio.profile_alt')}
-          className="w-52 rounded-full lg:ml-12"
-        />
+        <picture>
+          <source srcSet="img/FotoPerfil.webp" type="image/webp" />
+          <img
+            src="img/FotoPerfil.jpg"
+            alt={t('inicio.profile_alt')}
+            className="w-52 rounded-full lg:ml-12"
+            width="208"
+            height="208"
+          />
+        </picture>
         <div className="flex flex-col items-center text-center space-y-1 md:items-start ">
           <h1 className="text-5xl text-yellow-300">Víctor Marrero Carrillo</h1>
           <h2 className="text-3xl text-blue-300">{t('inicio.title')}</h2>
@@ -27,12 +32,13 @@ export function Inicio() {
               href="https://github.com/victorrmc"
               target="_blank"
               rel="noreferrer noopener"
+              aria-label={t('inicio.github_aria')}
             >
               <img
                 className="w-10 fill-black"
                 src="Github.svg"
-                alt="GitHub"
-                title="GitHub"
+                alt=""
+                aria-hidden="true"
               />
             </a>
             <a
@@ -40,18 +46,19 @@ export function Inicio() {
               href="https://www.linkedin.com/in/v%C3%ADctor-marrero-carrillo-8b25a2234/"
               target="_blank"
               rel="noreferrer noopener"
+              aria-label={t('inicio.linkedin_aria')}
             >
               <img
                 className="w-10"
                 src="LinkedIn.svg"
-                title="LinkedIn"
-                alt="Logo LinkedIn"
+                alt=""
+                aria-hidden="true"
               />
             </a>
             <a
               className="rounded-lg animated heartBeat bg-yellow-300 h-10 w-10  hover:bg-black hover:text-yellow-300 text-black text-xl flex align-middle flex-col justify-center  "
               href="/CV/CV-VictorMarreroCarrilloEnglish.pdf"
-              title={t('inicio.cv_title')}
+              aria-label={t('inicio.cv_title')}
               target="_blank"
             >
               CV

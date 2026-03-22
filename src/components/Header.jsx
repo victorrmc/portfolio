@@ -19,6 +19,9 @@ export function Header() {
         {/* Hamburger button */}
         <button
           onClick={handleToggleMenu}
+          aria-label={showMenu ? t("header.close_menu") : t("header.open_menu")}
+          aria-expanded={showMenu}
+          aria-controls="mobile-menu"
           className={
             showMenu
               ? "lg:hidden m-2 w-10 float-right botonHamburguesa open"
@@ -60,29 +63,35 @@ export function Header() {
           <div className="flex items-center space-x-2">
             <button
               onClick={() => changeLanguage("es")}
+              aria-label={t("header.lang_es")}
+              aria-pressed={i18n.language === "es"}
               className={`mx-1 ${
                 i18n.language === "es" ? "opacity-100" : "opacity-50"
               }`}
             >
               <img
                 src="/img/spain_flag.svg"
-                alt="Spanish Flag"
+                alt=""
+                aria-hidden="true"
                 className="h-6 w-6"
               />
             </button>
             <button
               onClick={() => changeLanguage("en")}
+              aria-label={t("header.lang_en")}
+              aria-pressed={i18n.language === "en"}
               className={`mx-1 ${
                 i18n.language === "en" ? "opacity-100" : "opacity-50"
               }`}
             >
-              <img src="/img/us_flag.svg" alt="US Flag" className="h-6 w-6" />
+              <img src="/img/us_flag.svg" alt="" aria-hidden="true" className="h-6 w-6" />
             </button>
           </div>
         </div>
 
         {/* Mobile: menú desplegable */}
         <ul
+          id="mobile-menu"
           className={
             showMenu
               ? "flex flex-col lg:hidden absolute top-full right-0 rounded-l-3xl w-min text-center list-none p-5 backdrop-opacity-10 backdrop-invert bg-gray-800/30 text-white"
@@ -113,23 +122,28 @@ export function Header() {
           <li className="py-2 rounded w-full flex justify-center items-center space-x-2">
             <button
               onClick={() => changeLanguage("es")}
+              aria-label={t("header.lang_es")}
+              aria-pressed={i18n.language === "es"}
               className={`mx-1 ${
                 i18n.language === "es" ? "opacity-100" : "opacity-50"
               }`}
             >
               <img
                 src="/img/spain_flag.svg"
-                alt="Spanish Flag"
+                alt=""
+                aria-hidden="true"
                 className="h-6 w-6"
               />
             </button>
             <button
               onClick={() => changeLanguage("en")}
+              aria-label={t("header.lang_en")}
+              aria-pressed={i18n.language === "en"}
               className={`mx-1 ${
                 i18n.language === "en" ? "opacity-100" : "opacity-50"
               }`}
             >
-              <img src="/img/us_flag.svg" alt="US Flag" className="h-6 w-6" />
+              <img src="/img/us_flag.svg" alt="" aria-hidden="true" className="h-6 w-6" />
             </button>
           </li>
         </ul>

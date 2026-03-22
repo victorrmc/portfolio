@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 
 export function CardProyecto({
   imagen,
+  imagenWebp,
   enlaceGithub,
   enlaceWeb,
   titulo,
@@ -16,11 +17,14 @@ export function CardProyecto({
   return (
     <article className="relative animatedCard mx-4 bg-slate-700 shadow-lg shadow-black rounded-3xl">
       <div className="group flex items-center justify-center">
-        <img
-          className="rounded-t-3xl  group-hover:opacity-30"
-          src={imagen}
-          alt={t("card_project.image_alt", { title: titulo })}
-        />
+        <picture>
+          {imagenWebp && <source srcSet={imagenWebp} type="image/webp" />}
+          <img
+            className="rounded-t-3xl  group-hover:opacity-30"
+            src={imagen}
+            alt={t("card_project.image_alt", { title: titulo })}
+          />
+        </picture>
 
         <div className="absolute hidden space-x-3 group-hover:flex  ">
           <a
@@ -28,18 +32,20 @@ export function CardProyecto({
             href={enlaceGithub}
             target="_blank"
             rel="noreferrer noopener"
+            aria-label={t("card_project.github_aria", { title: titulo })}
           >
             {t("card_project.code")}
-            <img className="w-10 ml-2" src="Github.svg" alt="Github logo" />
+            <img className="w-10 ml-2" src="Github.svg" alt="" aria-hidden="true" />
           </a>
           {enlaceWeb && (
-            <a href={enlaceWeb} target="_blank" rel="noreferrer noopener">
+            <a href={enlaceWeb} target="_blank" rel="noreferrer noopener" aria-label={t("card_project.web_aria", { title: titulo })}>
               {t("card_project.page")}
               <img
                 loading="lazy"
                 className="w-10 ml-0.5  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 "
                 src="Enlace.svg"
-                alt="Logo de enlace"
+                alt=""
+                aria-hidden="true"
               />
             </a>
           )}
